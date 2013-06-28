@@ -1,1 +1,1 @@
-We have participated in the second contest XBRL .
+This is a XBRL Project .
