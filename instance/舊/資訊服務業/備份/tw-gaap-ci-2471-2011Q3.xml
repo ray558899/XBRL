@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:tw-gaap-ar="http://www.xbrl.org/tw/fr/gaap/ar/2011-09-30" xmlns:tw-gaap-ci="http://www.xbrl.org/tw/fr/gaap/tw-gaap-ci-2011-09-30" xmlns:tw-gaap-notes="http://www.xbrl.org/tw/fr/gaap/notes/2011-09-30" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="tw-gaap-ci-2011-09-30.xsd" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" />
+  <xbrli:context id="AsOf20110101">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">2471</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="AsOf20110930">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">2471</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-09-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="From20110101To20110930">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">2471</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2011-01-01</xbrli:startDate>
+      <xbrli:endDate>2011-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="AsOf20100101">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">2471</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="AsOf20100930">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">2471</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-09-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="From20100101To20100930">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">2471</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2010-01-01</xbrli:startDate>
+      <xbrli:endDate>2010-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="AsOf20111028">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">2471</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-10-28</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="TWD">
+    <xbrli:measure>iso4217:TWD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="Shares">
+    <xbrli:measure>xbrli:shares</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="EarningsPerShare">
+    <xbrli:divide>
+      <xbrli:unitNumerator>
+        <xbrli:measure>iso4217:TWD</xbrli:measure>
+      </xbrli:unitNumerator>
+      <xbrli:unitDenominator>
+        <xbrli:measure>xbrli:shares</xbrli:measure>
+      </xbrli:unitDenominator>
+    </xbrli:divide>
+  </xbrli:unit>
+  <tw-gaap-ci:CashCashEquivalents contextRef="AsOf20100930" decimals="-3" unitRef="TWD">397976000</tw-gaap-ci:CashCashEquivalents>
+  <tw-gaap-ci:CashCashEquivalents contextRef="AsOf20110930" decimals="-3" unitRef="TWD">503657000</tw-gaap-ci:CashCashEquivalents>
+  <tw-gaap-ci:FinancialAssetsMeasuredFairValueProfitLossCurrent contextRef="AsOf20100930" decimals="-3" unitRef="TWD">66992000</tw-gaap-ci:FinancialAssetsMeasuredFairValueProfitLossCurrent>
+  <tw-gaap-ci:FinancialAssetsMeasuredFairValueProfitLossCurrent contextRef="AsOf20110930" decimals="-3" unitRef="TWD">46542000</tw-gaap-ci:FinancialAssetsMeasuredFairValueProfitLossCurrent>
+  <tw-gaap-ci:NetNotesReceivable contextRef="AsOf20100930" decimals="-3" unitRef="TWD">46235000</tw-gaap-ci:NetNotesReceivable>
+  <tw-gaap-ci:NetNotesReceivable contextRef="AsOf20110930" decimals="-3" unitRef="TWD">9921000</tw-gaap-ci:NetNotesReceivable>
+  <tw-gaap-ci:NetAccountsReceivable contextRef="AsOf20100930" decimals="-3" unitRef="TWD">177567000</tw-gaap-ci:NetAccountsReceivable>
+  <tw-gaap-ci:NetAccountsReceivable contextRef="AsOf20110930" decimals="-3" unitRef="TWD">176182000</tw-gaap-ci:NetAccountsReceivable>
+  <tw-gaap-ci:NetAccountsReceivableRelatedParties contextRef="AsOf20100930" decimals="-3" unitRef="TWD">17070000</tw-gaap-ci:NetAccountsReceivableRelatedParties>
+  <tw-gaap-ci:NetAccountsReceivableRelatedParties contextRef="AsOf20110930" decimals="-3" unitRef="TWD">4292000</tw-gaap-ci:NetAccountsReceivableRelatedParties>
+  <tw-gaap-ci:OtherReceivablesOther contextRef="AsOf20100930" decimals="-3" unitRef="TWD">1407000</tw-gaap-ci:OtherReceivablesOther>
+  <tw-gaap-ci:OtherReceivablesOther contextRef="AsOf20110930" decimals="-3" unitRef="TWD">1323000</tw-gaap-ci:OtherReceivablesOther>
+  <tw-gaap-ci:OtherReceivablesRelatedParties contextRef="AsOf20100930" decimals="-3" unitRef="TWD">1270000</tw-gaap-ci:OtherReceivablesRelatedParties>
+  <tw-gaap-ci:OtherReceivablesRelatedParties contextRef="AsOf20110930" decimals="-3" unitRef="TWD">611000</tw-gaap-ci:OtherReceivablesRelatedParties>
+  <tw-gaap-ci:OtherFinancialAssetsCurrent contextRef="AsOf20100930" decimals="-3" unitRef="TWD">86659000</tw-gaap-ci:OtherFinancialAssetsCurrent>
+  <tw-gaap-ci:OtherFinancialAssetsCurrent contextRef="AsOf20110930" decimals="-3" unitRef="TWD">71240000</tw-gaap-ci:OtherFinancialAssetsCurrent>
+  <tw-gaap-ci:OtherPrepayments contextRef="AsOf20100930" decimals="-3" unitRef="TWD">29647000</tw-gaap-ci:OtherPrepayments>
+  <tw-gaap-ci:OtherPrepayments contextRef="AsOf20110930" decimals="-3" unitRef="TWD">42661000</tw-gaap-ci:OtherPrepayments>
+  <tw-gaap-ci:DeferredIncomeTaxAssetsCurrent contextRef="AsOf20100930" decimals="-3" unitRef="TWD">1481000</tw-gaap-ci:DeferredIncomeTaxAssetsCurrent>
+  <tw-gaap-ci:DeferredIncomeTaxAssetsCurrent contextRef="AsOf20110930" decimals="-3" unitRef="TWD">522000</tw-gaap-ci:DeferredIncomeTaxAssetsCurrent>
+  <tw-gaap-ci:NetFinancialAssetsCarriedCostNonCurrent contextRef="AsOf20100930" decimals="-3" unitRef="TWD">18076000</tw-gaap-ci:NetFinancialAssetsCarriedCostNonCurrent>
+  <tw-gaap-ci:NetFinancialAssetsCarriedCostNonCurrent contextRef="AsOf20110930" decimals="-3" unitRef="TWD">10076000</tw-gaap-ci:NetFinancialAssetsCarriedCostNonCurrent>
+  <tw-gaap-ci:LongtermInvestmentsEquity contextRef="AsOf20100930" decimals="-3" unitRef="TWD">70750000</tw-gaap-ci:LongtermInvestmentsEquity>
+  <tw-gaap-ci:LongtermInvestmentsEquity contextRef="AsOf20110930" decimals="-3" unitRef="TWD">80319000</tw-gaap-ci:LongtermInvestmentsEquity>
+  <tw-gaap-ci:MachineryEquipment contextRef="AsOf20100930" decimals="-3" unitRef="TWD">30672000</tw-gaap-ci:MachineryEquipment>
+  <tw-gaap-ci:MachineryEquipment contextRef="AsOf20110930" decimals="-3" unitRef="TWD">22501000</tw-gaap-ci:MachineryEquipment>
+  <tw-gaap-ci:TransportationEquipment contextRef="AsOf20100930" decimals="-3" unitRef="TWD">8912000</tw-gaap-ci:TransportationEquipment>
+  <tw-gaap-ci:TransportationEquipment contextRef="AsOf20110930" decimals="-3" unitRef="TWD">8912000</tw-gaap-ci:TransportationEquipment>
+  <tw-gaap-ci:OfficeEquipment contextRef="AsOf20100930" decimals="-3" unitRef="TWD">6779000</tw-gaap-ci:OfficeEquipment>
+  <tw-gaap-ci:OfficeEquipment contextRef="AsOf20110930" decimals="-3" unitRef="TWD">6885000</tw-gaap-ci:OfficeEquipment>
+  <tw-gaap-ci:LeaseholdImprovements contextRef="AsOf20100930" decimals="-3" unitRef="TWD">9489000</tw-gaap-ci:LeaseholdImprovements>
+  <tw-gaap-ci:LeaseholdImprovements contextRef="AsOf20110930" decimals="-3" unitRef="TWD">10349000</tw-gaap-ci:LeaseholdImprovements>
+  <tw-gaap-ci:OtherFacilities contextRef="AsOf20100930" decimals="-3" unitRef="TWD">1176000</tw-gaap-ci:OtherFacilities>
+  <tw-gaap-ci:OtherFacilities contextRef="AsOf20110930" decimals="-3" unitRef="TWD">1175000</tw-gaap-ci:OtherFacilities>
+  <tw-gaap-ci:AccumulatedDepreciation contextRef="AsOf20100930" decimals="-3" unitRef="TWD">50560000</tw-gaap-ci:AccumulatedDepreciation>
+  <tw-gaap-ci:AccumulatedDepreciation contextRef="AsOf20110930" decimals="-3" unitRef="TWD">42563000</tw-gaap-ci:AccumulatedDepreciation>
+  <tw-gaap-ci:NetRentalAssets contextRef="AsOf20100930" decimals="-3" unitRef="TWD">32381000</tw-gaap-ci:NetRentalAssets>
+  <tw-gaap-ci:NetRentalAssets contextRef="AsOf20110930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:NetRentalAssets>
+  <tw-gaap-ci:GuaranteeDepositsPaid contextRef="AsOf20100930" decimals="-3" unitRef="TWD">7804000</tw-gaap-ci:GuaranteeDepositsPaid>
+  <tw-gaap-ci:GuaranteeDepositsPaid contextRef="AsOf20110930" decimals="-3" unitRef="TWD">7835000</tw-gaap-ci:GuaranteeDepositsPaid>
+  <tw-gaap-ci:DeferredCharges contextRef="AsOf20100930" decimals="-3" unitRef="TWD">767000</tw-gaap-ci:DeferredCharges>
+  <tw-gaap-ci:DeferredCharges contextRef="AsOf20110930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:DeferredCharges>
+  <tw-gaap-ci:LongtermNotesReceivableRelatedParties contextRef="AsOf20100930" decimals="-3" unitRef="TWD">11502000</tw-gaap-ci:LongtermNotesReceivableRelatedParties>
+  <tw-gaap-ci:LongtermNotesReceivableRelatedParties contextRef="AsOf20110930" decimals="-3" unitRef="TWD">7367000</tw-gaap-ci:LongtermNotesReceivableRelatedParties>
+  <tw-gaap-ci:DeferredIncomeTaxAssetsNonCurrent contextRef="AsOf20100930" decimals="-3" unitRef="TWD">25447000</tw-gaap-ci:DeferredIncomeTaxAssetsNonCurrent>
+  <tw-gaap-ci:DeferredIncomeTaxAssetsNonCurrent contextRef="AsOf20110930" decimals="-3" unitRef="TWD">25012000</tw-gaap-ci:DeferredIncomeTaxAssetsNonCurrent>
+  <tw-gaap-ci:NotesPayable contextRef="AsOf20100930" decimals="-3" unitRef="TWD">1170000</tw-gaap-ci:NotesPayable>
+  <tw-gaap-ci:NotesPayable contextRef="AsOf20110930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:NotesPayable>
+  <tw-gaap-ci:AccountsPayable contextRef="AsOf20100930" decimals="-3" unitRef="TWD">104263000</tw-gaap-ci:AccountsPayable>
+  <tw-gaap-ci:AccountsPayable contextRef="AsOf20110930" decimals="-3" unitRef="TWD">71678000</tw-gaap-ci:AccountsPayable>
+  <tw-gaap-ci:AccountsPayableRelatedParties contextRef="AsOf20100930" decimals="-3" unitRef="TWD">7163000</tw-gaap-ci:AccountsPayableRelatedParties>
+  <tw-gaap-ci:AccountsPayableRelatedParties contextRef="AsOf20110930" decimals="-3" unitRef="TWD">6377000</tw-gaap-ci:AccountsPayableRelatedParties>
+  <tw-gaap-ci:IncomeTaxPayable contextRef="AsOf20100930" decimals="-3" unitRef="TWD">3146000</tw-gaap-ci:IncomeTaxPayable>
+  <tw-gaap-ci:IncomeTaxPayable contextRef="AsOf20110930" decimals="-3" unitRef="TWD">549000</tw-gaap-ci:IncomeTaxPayable>
+  <tw-gaap-ci:AccruedExpenses contextRef="AsOf20100930" decimals="-3" unitRef="TWD">45581000</tw-gaap-ci:AccruedExpenses>
+  <tw-gaap-ci:AccruedExpenses contextRef="AsOf20110930" decimals="-3" unitRef="TWD">59623000</tw-gaap-ci:AccruedExpenses>
+  <tw-gaap-ci:OtherPayables contextRef="AsOf20100930" decimals="-3" unitRef="TWD">6057000</tw-gaap-ci:OtherPayables>
+  <tw-gaap-ci:OtherPayables contextRef="AsOf20110930" decimals="-3" unitRef="TWD">3619000</tw-gaap-ci:OtherPayables>
+  <tw-gaap-ci:AdvanceReceipts contextRef="AsOf20100930" decimals="-3" unitRef="TWD">45449000</tw-gaap-ci:AdvanceReceipts>
+  <tw-gaap-ci:AdvanceReceipts contextRef="AsOf20110930" decimals="-3" unitRef="TWD">46745000</tw-gaap-ci:AdvanceReceipts>
+  <tw-gaap-ci:PensionReserve contextRef="AsOf20100930" decimals="-3" unitRef="TWD">76497000</tw-gaap-ci:PensionReserve>
+  <tw-gaap-ci:PensionReserve contextRef="AsOf20110930" decimals="-3" unitRef="TWD">83553000</tw-gaap-ci:PensionReserve>
+  <tw-gaap-ci:GuaranteeDepositsReceived contextRef="AsOf20100930" decimals="-3" unitRef="TWD">1143000</tw-gaap-ci:GuaranteeDepositsReceived>
+  <tw-gaap-ci:GuaranteeDepositsReceived contextRef="AsOf20110930" decimals="-3" unitRef="TWD">738000</tw-gaap-ci:GuaranteeDepositsReceived>
+  <tw-gaap-ci:OtherLiabilities-Other contextRef="AsOf20100930" decimals="-3" unitRef="TWD">8636000</tw-gaap-ci:OtherLiabilities-Other>
+  <tw-gaap-ci:OtherLiabilities-Other contextRef="AsOf20110930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:OtherLiabilities-Other>
+  <tw-gaap-ci:CommonStock contextRef="AsOf20100930" decimals="-3" unitRef="TWD">492539000</tw-gaap-ci:CommonStock>
+  <tw-gaap-ci:CommonStock contextRef="AsOf20110930" decimals="-3" unitRef="TWD">472539000</tw-gaap-ci:CommonStock>
+  <tw-gaap-ci:CapitalSurplusAdditionalPaidCapitalCommonStock contextRef="AsOf20100930" decimals="-3" unitRef="TWD">157914000</tw-gaap-ci:CapitalSurplusAdditionalPaidCapitalCommonStock>
+  <tw-gaap-ci:CapitalSurplusAdditionalPaidCapitalCommonStock contextRef="AsOf20110930" decimals="-3" unitRef="TWD">151502000</tw-gaap-ci:CapitalSurplusAdditionalPaidCapitalCommonStock>
+  <tw-gaap-ci:CapitalSurplusTreasuryStockTransactions contextRef="AsOf20100930" decimals="-3" unitRef="TWD">15904000</tw-gaap-ci:CapitalSurplusTreasuryStockTransactions>
+  <tw-gaap-ci:CapitalSurplusTreasuryStockTransactions contextRef="AsOf20110930" decimals="-3" unitRef="TWD">45169000</tw-gaap-ci:CapitalSurplusTreasuryStockTransactions>
+  <tw-gaap-ci:LegalReserve contextRef="AsOf20100930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:LegalReserve>
+  <tw-gaap-ci:LegalReserve contextRef="AsOf20110930" decimals="-3" unitRef="TWD">6182000</tw-gaap-ci:LegalReserve>
+  <tw-gaap-ci:UnappropriatedRetainedEarnings contextRef="AsOf20100930" decimals="-3" unitRef="TWD">55731000</tw-gaap-ci:UnappropriatedRetainedEarnings>
+  <tw-gaap-ci:UnappropriatedRetainedEarnings contextRef="AsOf20110930" decimals="-3" unitRef="TWD">41565000</tw-gaap-ci:UnappropriatedRetainedEarnings>
+  <tw-gaap-ci:CumulativeTranslationAdjustments contextRef="AsOf20100930" decimals="-3" unitRef="TWD">4184000</tw-gaap-ci:CumulativeTranslationAdjustments>
+  <tw-gaap-ci:CumulativeTranslationAdjustments contextRef="AsOf20110930" decimals="-3" unitRef="TWD">4980000</tw-gaap-ci:CumulativeTranslationAdjustments>
+  <tw-gaap-ci:TreasuryStock contextRef="AsOf20100930" decimals="-3" unitRef="TWD">25878000</tw-gaap-ci:TreasuryStock>
+  <tw-gaap-ci:TreasuryStock contextRef="AsOf20110930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:TreasuryStock>
+  <tw-gaap-ci:EquivalentSharesOutstandingAdvanceReceiptsCommonStock contextRef="AsOf20100930" decimals="0" unitRef="Shares">0</tw-gaap-ci:EquivalentSharesOutstandingAdvanceReceiptsCommonStock>
+  <tw-gaap-ci:EquivalentSharesOutstandingAdvanceReceiptsCommonStock contextRef="AsOf20110930" decimals="0" unitRef="Shares">0</tw-gaap-ci:EquivalentSharesOutstandingAdvanceReceiptsCommonStock>
+  <tw-gaap-ci:NumberTreasuryStockAcquiredCompanySubsidiaries contextRef="AsOf20100930" decimals="0" unitRef="Shares">3000000</tw-gaap-ci:NumberTreasuryStockAcquiredCompanySubsidiaries>
+  <tw-gaap-ci:NumberTreasuryStockAcquiredCompanySubsidiaries contextRef="AsOf20110930" decimals="0" unitRef="Shares">0</tw-gaap-ci:NumberTreasuryStockAcquiredCompanySubsidiaries>
+  <tw-gaap-ci:Assets contextRef="AsOf20100930" decimals="-3" unitRef="TWD">999499000</tw-gaap-ci:Assets>
+  <tw-gaap-ci:Assets contextRef="AsOf20110930" decimals="-3" unitRef="TWD">994819000</tw-gaap-ci:Assets>
+  <tw-gaap-ci:OtherAssets contextRef="AsOf20100930" decimals="-3" unitRef="TWD">77901000</tw-gaap-ci:OtherAssets>
+  <tw-gaap-ci:OtherAssets contextRef="AsOf20110930" decimals="-3" unitRef="TWD">40214000</tw-gaap-ci:OtherAssets>
+  <tw-gaap-ci:CurrentAssets contextRef="AsOf20100930" decimals="-3" unitRef="TWD">826304000</tw-gaap-ci:CurrentAssets>
+  <tw-gaap-ci:CurrentAssets contextRef="AsOf20110930" decimals="-3" unitRef="TWD">856951000</tw-gaap-ci:CurrentAssets>
+  <tw-gaap-ci:OtherReceivables contextRef="AsOf20100930" decimals="-3" unitRef="TWD">1407000</tw-gaap-ci:OtherReceivables>
+  <tw-gaap-ci:OtherReceivables contextRef="AsOf20110930" decimals="-3" unitRef="TWD">1323000</tw-gaap-ci:OtherReceivables>
+  <tw-gaap-ci:OtherCurrentAssets contextRef="AsOf20100930" decimals="-3" unitRef="TWD">1481000</tw-gaap-ci:OtherCurrentAssets>
+  <tw-gaap-ci:OtherCurrentAssets contextRef="AsOf20110930" decimals="-3" unitRef="TWD">522000</tw-gaap-ci:OtherCurrentAssets>
+  <tw-gaap-ci:FundsInvestments contextRef="AsOf20100930" decimals="-3" unitRef="TWD">88826000</tw-gaap-ci:FundsInvestments>
+  <tw-gaap-ci:FundsInvestments contextRef="AsOf20110930" decimals="-3" unitRef="TWD">90395000</tw-gaap-ci:FundsInvestments>
+  <tw-gaap-ci:LongtermInvestments contextRef="AsOf20100930" decimals="-3" unitRef="TWD">70750000</tw-gaap-ci:LongtermInvestments>
+  <tw-gaap-ci:LongtermInvestments contextRef="AsOf20110930" decimals="-3" unitRef="TWD">80319000</tw-gaap-ci:LongtermInvestments>
+  <tw-gaap-ci:FixedAssets contextRef="AsOf20100930" decimals="-3" unitRef="TWD">6468000</tw-gaap-ci:FixedAssets>
+  <tw-gaap-ci:FixedAssets contextRef="AsOf20110930" decimals="-3" unitRef="TWD">7259000</tw-gaap-ci:FixedAssets>
+  <tw-gaap-ci:CostsRevaluationIncrement contextRef="AsOf20100930" decimals="-3" unitRef="TWD">57028000</tw-gaap-ci:CostsRevaluationIncrement>
+  <tw-gaap-ci:CostsRevaluationIncrement contextRef="AsOf20110930" decimals="-3" unitRef="TWD">49822000</tw-gaap-ci:CostsRevaluationIncrement>
+  <tw-gaap-ci:FixedAssetsOriginalCosts contextRef="AsOf20100930" decimals="-3" unitRef="TWD">57028000</tw-gaap-ci:FixedAssetsOriginalCosts>
+  <tw-gaap-ci:FixedAssetsOriginalCosts contextRef="AsOf20110930" decimals="-3" unitRef="TWD">49822000</tw-gaap-ci:FixedAssetsOriginalCosts>
+  <tw-gaap-ci:Liabilities contextRef="AsOf20100930" decimals="-3" unitRef="TWD">299105000</tw-gaap-ci:Liabilities>
+  <tw-gaap-ci:Liabilities contextRef="AsOf20110930" decimals="-3" unitRef="TWD">272882000</tw-gaap-ci:Liabilities>
+  <tw-gaap-ci:CurrentLiabilities contextRef="AsOf20100930" decimals="-3" unitRef="TWD">212829000</tw-gaap-ci:CurrentLiabilities>
+  <tw-gaap-ci:CurrentLiabilities contextRef="AsOf20110930" decimals="-3" unitRef="TWD">188591000</tw-gaap-ci:CurrentLiabilities>
+  <tw-gaap-ci:OtherLiabilities contextRef="AsOf20100930" decimals="-3" unitRef="TWD">86276000</tw-gaap-ci:OtherLiabilities>
+  <tw-gaap-ci:OtherLiabilities contextRef="AsOf20110930" decimals="-3" unitRef="TWD">84291000</tw-gaap-ci:OtherLiabilities>
+  <tw-gaap-ci:OtherLiabilitiesOther contextRef="AsOf20100930" decimals="-3" unitRef="TWD">8636000</tw-gaap-ci:OtherLiabilitiesOther>
+  <tw-gaap-ci:OtherLiabilitiesOther contextRef="AsOf20110930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:OtherLiabilitiesOther>
+  <tw-gaap-ci:StockholdersEquities contextRef="AsOf20100930" decimals="-3" unitRef="TWD">700394000</tw-gaap-ci:StockholdersEquities>
+  <tw-gaap-ci:StockholdersEquities contextRef="AsOf20110930" decimals="-3" unitRef="TWD">721937000</tw-gaap-ci:StockholdersEquities>
+  <tw-gaap-ci:CapitalSurplus contextRef="AsOf20100930" decimals="-3" unitRef="TWD">173818000</tw-gaap-ci:CapitalSurplus>
+  <tw-gaap-ci:CapitalSurplus contextRef="AsOf20110930" decimals="-3" unitRef="TWD">196671000</tw-gaap-ci:CapitalSurplus>
+  <tw-gaap-ci:CapitalSurplusAdditionalPaidCapital contextRef="AsOf20100930" decimals="-3" unitRef="TWD">157914000</tw-gaap-ci:CapitalSurplusAdditionalPaidCapital>
+  <tw-gaap-ci:CapitalSurplusAdditionalPaidCapital contextRef="AsOf20110930" decimals="-3" unitRef="TWD">151502000</tw-gaap-ci:CapitalSurplusAdditionalPaidCapital>
+  <tw-gaap-ci:RetainedEarnings contextRef="AsOf20100930" decimals="-3" unitRef="TWD">55731000</tw-gaap-ci:RetainedEarnings>
+  <tw-gaap-ci:RetainedEarnings contextRef="AsOf20110930" decimals="-3" unitRef="TWD">47747000</tw-gaap-ci:RetainedEarnings>
+  <tw-gaap-ci:StockholdersEquitiesAdjustments contextRef="AsOf20100930" decimals="-3" unitRef="TWD">-21694000</tw-gaap-ci:StockholdersEquitiesAdjustments>
+  <tw-gaap-ci:StockholdersEquitiesAdjustments contextRef="AsOf20110930" decimals="-3" unitRef="TWD">4980000</tw-gaap-ci:StockholdersEquitiesAdjustments>
+  <tw-gaap-ci:Capital contextRef="AsOf20100930" decimals="-3" unitRef="TWD">492539000</tw-gaap-ci:Capital>
+  <tw-gaap-ci:Capital contextRef="AsOf20110930" decimals="-3" unitRef="TWD">472539000</tw-gaap-ci:Capital>
+  <tw-gaap-ci:Sales contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">158374000</tw-gaap-ci:Sales>
+  <tw-gaap-ci:Sales contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">106146000</tw-gaap-ci:Sales>
+  <tw-gaap-ci:ServiceRevenue contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">386986000</tw-gaap-ci:ServiceRevenue>
+  <tw-gaap-ci:ServiceRevenue contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">396069000</tw-gaap-ci:ServiceRevenue>
+  <tw-gaap-ci:CostSales contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">146142000</tw-gaap-ci:CostSales>
+  <tw-gaap-ci:CostSales contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">83347000</tw-gaap-ci:CostSales>
+  <tw-gaap-ci:CostServicesCostServices contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">246431000</tw-gaap-ci:CostServicesCostServices>
+  <tw-gaap-ci:CostServicesCostServices contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">261426000</tw-gaap-ci:CostServicesCostServices>
+  <tw-gaap-ci:Sellingexpense contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">36096000</tw-gaap-ci:Sellingexpense>
+  <tw-gaap-ci:Sellingexpense contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">46137000</tw-gaap-ci:Sellingexpense>
+  <tw-gaap-ci:GeneralAdministrativeExpenses contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">31260000</tw-gaap-ci:GeneralAdministrativeExpenses>
+  <tw-gaap-ci:GeneralAdministrativeExpenses contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">40664000</tw-gaap-ci:GeneralAdministrativeExpenses>
+  <tw-gaap-ci:ResearchDevelopmentExpenses contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">32646000</tw-gaap-ci:ResearchDevelopmentExpenses>
+  <tw-gaap-ci:ResearchDevelopmentExpenses contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">39422000</tw-gaap-ci:ResearchDevelopmentExpenses>
+  <tw-gaap-ci:InterestIncome contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">2907000</tw-gaap-ci:InterestIncome>
+  <tw-gaap-ci:InterestIncome contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">2571000</tw-gaap-ci:InterestIncome>
+  <tw-gaap-ci:InvestmentGainsRecognizedEquityMethod contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">5471000</tw-gaap-ci:InvestmentGainsRecognizedEquityMethod>
+  <tw-gaap-ci:InvestmentGainsRecognizedEquityMethod contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">12990000</tw-gaap-ci:InvestmentGainsRecognizedEquityMethod>
+  <tw-gaap-ci:GainsDisposalFixedAssets contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">66000</tw-gaap-ci:GainsDisposalFixedAssets>
+  <tw-gaap-ci:GainsDisposalFixedAssets contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">30085000</tw-gaap-ci:GainsDisposalFixedAssets>
+  <tw-gaap-ci:ForeignExchangeGains contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:ForeignExchangeGains>
+  <tw-gaap-ci:ForeignExchangeGains contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">5529000</tw-gaap-ci:ForeignExchangeGains>
+  <tw-gaap-ci:RentIncome contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">1054000</tw-gaap-ci:RentIncome>
+  <tw-gaap-ci:RentIncome contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">20000</tw-gaap-ci:RentIncome>
+  <tw-gaap-ci:MiscellaneousIncome contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">5100000</tw-gaap-ci:MiscellaneousIncome>
+  <tw-gaap-ci:MiscellaneousIncome contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">1459000</tw-gaap-ci:MiscellaneousIncome>
+  <tw-gaap-ci:LossSaleInvestments contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:LossSaleInvestments>
+  <tw-gaap-ci:LossSaleInvestments contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">5390000</tw-gaap-ci:LossSaleInvestments>
+  <tw-gaap-ci:ForeignExchangeLosses contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">3349000</tw-gaap-ci:ForeignExchangeLosses>
+  <tw-gaap-ci:ForeignExchangeLosses contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:ForeignExchangeLosses>
+  <tw-gaap-ci:RevaluationLossFinancialAssets contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">155000</tw-gaap-ci:RevaluationLossFinancialAssets>
+  <tw-gaap-ci:RevaluationLossFinancialAssets contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">4463000</tw-gaap-ci:RevaluationLossFinancialAssets>
+  <tw-gaap-ci:MiscellaneousDisbursements contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">1314000</tw-gaap-ci:MiscellaneousDisbursements>
+  <tw-gaap-ci:MiscellaneousDisbursements contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">25314000</tw-gaap-ci:MiscellaneousDisbursements>
+  <tw-gaap-ci:IncomeTaxExpenseBenefit contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">6834000</tw-gaap-ci:IncomeTaxExpenseBenefit>
+  <tw-gaap-ci:IncomeTaxExpenseBenefit contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">7275000</tw-gaap-ci:IncomeTaxExpenseBenefit>
+  <tw-gaap-ci:PrimaryEarningsPerShareIncomeLossContinuingOperations contextRef="From20100101To20100930" decimals="2" unitRef="TWD">1.2</tw-gaap-ci:PrimaryEarningsPerShareIncomeLossContinuingOperations>
+  <tw-gaap-ci:PrimaryEarningsPerShareIncomeLossContinuingOperations contextRef="From20110101To20110930" decimals="2" unitRef="TWD">0.89</tw-gaap-ci:PrimaryEarningsPerShareIncomeLossContinuingOperations>
+  <tw-gaap-ci:PrimaryEarningsPerShare contextRef="From20100101To20100930" decimals="2" unitRef="TWD">1.2</tw-gaap-ci:PrimaryEarningsPerShare>
+  <tw-gaap-ci:PrimaryEarningsPerShare contextRef="From20110101To20110930" decimals="2" unitRef="TWD">0.89</tw-gaap-ci:PrimaryEarningsPerShare>
+  <tw-gaap-ci:NetIncomeLoss contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">55731000</tw-gaap-ci:NetIncomeLoss>
+  <tw-gaap-ci:NetIncomeLoss contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">41431000</tw-gaap-ci:NetIncomeLoss>
+  <tw-gaap-ci:IncomeContinuingOperations contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">55731000</tw-gaap-ci:IncomeContinuingOperations>
+  <tw-gaap-ci:IncomeContinuingOperations contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">41431000</tw-gaap-ci:IncomeContinuingOperations>
+  <tw-gaap-ci:IncomeContinuingOperationsBeforeIncomeTax contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">62565000</tw-gaap-ci:IncomeContinuingOperationsBeforeIncomeTax>
+  <tw-gaap-ci:IncomeContinuingOperationsBeforeIncomeTax contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">48706000</tw-gaap-ci:IncomeContinuingOperationsBeforeIncomeTax>
+  <tw-gaap-ci:OperatingIncomeLoss contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">52785000</tw-gaap-ci:OperatingIncomeLoss>
+  <tw-gaap-ci:OperatingIncomeLoss contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">31219000</tw-gaap-ci:OperatingIncomeLoss>
+  <tw-gaap-ci:GrossProfitLossOperations contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">152787000</tw-gaap-ci:GrossProfitLossOperations>
+  <tw-gaap-ci:GrossProfitLossOperations contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">157442000</tw-gaap-ci:GrossProfitLossOperations>
+  <tw-gaap-ci:OperatingCosts contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">392573000</tw-gaap-ci:OperatingCosts>
+  <tw-gaap-ci:OperatingCosts contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">344773000</tw-gaap-ci:OperatingCosts>
+  <tw-gaap-ci:TotalCostServices contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">246431000</tw-gaap-ci:TotalCostServices>
+  <tw-gaap-ci:TotalCostServices contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">261426000</tw-gaap-ci:TotalCostServices>
+  <tw-gaap-ci:OperatingRevenue contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">545360000</tw-gaap-ci:OperatingRevenue>
+  <tw-gaap-ci:OperatingRevenue contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">502215000</tw-gaap-ci:OperatingRevenue>
+  <tw-gaap-ci:NetSales contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">158374000</tw-gaap-ci:NetSales>
+  <tw-gaap-ci:NetSales contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">106146000</tw-gaap-ci:NetSales>
+  <tw-gaap-ci:TotalServiceRevenue contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">386986000</tw-gaap-ci:TotalServiceRevenue>
+  <tw-gaap-ci:TotalServiceRevenue contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">396069000</tw-gaap-ci:TotalServiceRevenue>
+  <tw-gaap-ci:OperatingExpenses contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">100002000</tw-gaap-ci:OperatingExpenses>
+  <tw-gaap-ci:OperatingExpenses contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">126223000</tw-gaap-ci:OperatingExpenses>
+  <tw-gaap-ci:NonOperatingIncomeGains contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">14598000</tw-gaap-ci:NonOperatingIncomeGains>
+  <tw-gaap-ci:NonOperatingIncomeGains contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">52654000</tw-gaap-ci:NonOperatingIncomeGains>
+  <tw-gaap-ci:InvestmentGains contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">5471000</tw-gaap-ci:InvestmentGains>
+  <tw-gaap-ci:InvestmentGains contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">12990000</tw-gaap-ci:InvestmentGains>
+  <tw-gaap-ci:NonOperatingExpenses contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">4818000</tw-gaap-ci:NonOperatingExpenses>
+  <tw-gaap-ci:NonOperatingExpenses contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">35167000</tw-gaap-ci:NonOperatingExpenses>
+  <tw-gaap-ci:AcquisitionPropertyPlantEquipment contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-1411000</tw-gaap-ci:AcquisitionPropertyPlantEquipment>
+  <tw-gaap-ci:AcquisitionPropertyPlantEquipment contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-3758000</tw-gaap-ci:AcquisitionPropertyPlantEquipment>
+  <tw-gaap-ci:AmortizationExpense-Operating contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">1571000</tw-gaap-ci:AmortizationExpense-Operating>
+  <tw-gaap-ci:AmortizationExpense-Operating contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">243000</tw-gaap-ci:AmortizationExpense-Operating>
+  <tw-gaap-ci:CashCashEquivalents contextRef="AsOf20100101" decimals="-3" unitRef="TWD">348322000</tw-gaap-ci:CashCashEquivalents>
+  <tw-gaap-ci:CashCashEquivalents contextRef="AsOf20110101" decimals="-3" unitRef="TWD">466617000</tw-gaap-ci:CashCashEquivalents>
+  <tw-gaap-ci:CashDividends contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:CashDividends>
+  <tw-gaap-ci:CashDividends contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-55504000</tw-gaap-ci:CashDividends>
+  <tw-gaap-ci:ChamgesOtherAssets contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-3155000</tw-gaap-ci:ChamgesOtherAssets>
+  <tw-gaap-ci:ChamgesOtherAssets contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-1995000</tw-gaap-ci:ChamgesOtherAssets>
+  <tw-gaap-ci:ChangesAccountsPayable contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">50714000</tw-gaap-ci:ChangesAccountsPayable>
+  <tw-gaap-ci:ChangesAccountsPayable contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-7293000</tw-gaap-ci:ChangesAccountsPayable>
+  <tw-gaap-ci:ChangesAccountsPayableRelatedParties contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">1215000</tw-gaap-ci:ChangesAccountsPayableRelatedParties>
+  <tw-gaap-ci:ChangesAccountsPayableRelatedParties contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">64000</tw-gaap-ci:ChangesAccountsPayableRelatedParties>
+  <tw-gaap-ci:ChangesAccountsReceivable contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-29146000</tw-gaap-ci:ChangesAccountsReceivable>
+  <tw-gaap-ci:ChangesAccountsReceivable contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-10517000</tw-gaap-ci:ChangesAccountsReceivable>
+  <tw-gaap-ci:ChangesAccountsReceivableRelatedParties contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-14756000</tw-gaap-ci:ChangesAccountsReceivableRelatedParties>
+  <tw-gaap-ci:ChangesAccountsReceivableRelatedParties contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-2419000</tw-gaap-ci:ChangesAccountsReceivableRelatedParties>
+  <tw-gaap-ci:ChangesAccruedExpenses contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-9002000</tw-gaap-ci:ChangesAccruedExpenses>
+  <tw-gaap-ci:ChangesAccruedExpenses contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-5084000</tw-gaap-ci:ChangesAccruedExpenses>
+  <tw-gaap-ci:ChangesAccruedPensionLiabilities contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">3046000</tw-gaap-ci:ChangesAccruedPensionLiabilities>
+  <tw-gaap-ci:ChangesAccruedPensionLiabilities contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">6036000</tw-gaap-ci:ChangesAccruedPensionLiabilities>
+  <tw-gaap-ci:ChangesDeferredTaxAssets contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">3230000</tw-gaap-ci:ChangesDeferredTaxAssets>
+  <tw-gaap-ci:ChangesDeferredTaxAssets contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">7157000</tw-gaap-ci:ChangesDeferredTaxAssets>
+  <tw-gaap-ci:ChangesFinancialAssetsHeldTrading contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">27353000</tw-gaap-ci:ChangesFinancialAssetsHeldTrading>
+  <tw-gaap-ci:ChangesFinancialAssetsHeldTrading contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">9610000</tw-gaap-ci:ChangesFinancialAssetsHeldTrading>
+  <tw-gaap-ci:ChangesGuaranteeDepositsReceived contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">7000</tw-gaap-ci:ChangesGuaranteeDepositsReceived>
+  <tw-gaap-ci:ChangesGuaranteeDepositsReceived contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">110000</tw-gaap-ci:ChangesGuaranteeDepositsReceived>
+  <tw-gaap-ci:ChangesIncomeTaxPayable contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">3146000</tw-gaap-ci:ChangesIncomeTaxPayable>
+  <tw-gaap-ci:ChangesIncomeTaxPayable contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-6248000</tw-gaap-ci:ChangesIncomeTaxPayable>
+  <tw-gaap-ci:ChangesNotesPayable contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">549000</tw-gaap-ci:ChangesNotesPayable>
+  <tw-gaap-ci:ChangesNotesPayable contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-585000</tw-gaap-ci:ChangesNotesPayable>
+  <tw-gaap-ci:ChangesNotesReceivable contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-44713000</tw-gaap-ci:ChangesNotesReceivable>
+  <tw-gaap-ci:ChangesNotesReceivable contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-1618000</tw-gaap-ci:ChangesNotesReceivable>
+  <tw-gaap-ci:ChangesOtherFinancialAssets_CI contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">27724000</tw-gaap-ci:ChangesOtherFinancialAssets_CI>
+  <tw-gaap-ci:ChangesOtherFinancialAssets_CI contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">28462000</tw-gaap-ci:ChangesOtherFinancialAssets_CI>
+  <tw-gaap-ci:ChangesOtherPayables contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">142000</tw-gaap-ci:ChangesOtherPayables>
+  <tw-gaap-ci:ChangesOtherPayables contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-3906000</tw-gaap-ci:ChangesOtherPayables>
+  <tw-gaap-ci:ChangesOtherPrepayments contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-6167000</tw-gaap-ci:ChangesOtherPrepayments>
+  <tw-gaap-ci:ChangesOtherPrepayments contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-10809000</tw-gaap-ci:ChangesOtherPrepayments>
+  <tw-gaap-ci:ChangesOtherReceivableRelatedParties contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">2402000</tw-gaap-ci:ChangesOtherReceivableRelatedParties>
+  <tw-gaap-ci:ChangesOtherReceivableRelatedParties contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">1156000</tw-gaap-ci:ChangesOtherReceivableRelatedParties>
+  <tw-gaap-ci:ChangesOtherReceivables contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">2847000</tw-gaap-ci:ChangesOtherReceivables>
+  <tw-gaap-ci:ChangesOtherReceivables contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-24153000</tw-gaap-ci:ChangesOtherReceivables>
+  <tw-gaap-ci:ChangesReceiptsAdvance contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-19030000</tw-gaap-ci:ChangesReceiptsAdvance>
+  <tw-gaap-ci:ChangesReceiptsAdvance contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-15616000</tw-gaap-ci:ChangesReceiptsAdvance>
+  <tw-gaap-ci:ChangesRefundableDeposits contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">3000</tw-gaap-ci:ChangesRefundableDeposits>
+  <tw-gaap-ci:ChangesRefundableDeposits contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-109000</tw-gaap-ci:ChangesRefundableDeposits>
+  <tw-gaap-ci:DepreciationExpense-Operating contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">2893000</tw-gaap-ci:DepreciationExpense-Operating>
+  <tw-gaap-ci:DepreciationExpense-Operating contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">2270000</tw-gaap-ci:DepreciationExpense-Operating>
+  <tw-gaap-ci:EmployeePurchaseTreasuryStock contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:EmployeePurchaseTreasuryStock>
+  <tw-gaap-ci:EmployeePurchaseTreasuryStock contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">7208000</tw-gaap-ci:EmployeePurchaseTreasuryStock>
+  <tw-gaap-ci:GainLossDisposalScrappingFixedAssets contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-66000</tw-gaap-ci:GainLossDisposalScrappingFixedAssets>
+  <tw-gaap-ci:GainLossDisposalScrappingFixedAssets contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-30085000</tw-gaap-ci:GainLossDisposalScrappingFixedAssets>
+  <tw-gaap-ci:GainsLossesSaleInvestments contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:GainsLossesSaleInvestments>
+  <tw-gaap-ci:GainsLossesSaleInvestments contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">5390000</tw-gaap-ci:GainsLossesSaleInvestments>
+  <tw-gaap-ci:ImpairmentLossesNonFinancialAssets contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:ImpairmentLossesNonFinancialAssets>
+  <tw-gaap-ci:ImpairmentLossesNonFinancialAssets contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:ImpairmentLossesNonFinancialAssets>
+  <tw-gaap-ci:IncomeTaxPaid contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">458000</tw-gaap-ci:IncomeTaxPaid>
+  <tw-gaap-ci:IncomeTaxPaid contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">6698000</tw-gaap-ci:IncomeTaxPaid>
+  <tw-gaap-ci:InvestmentLossIncomeRecognizedEquityMethod contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-5471000</tw-gaap-ci:InvestmentLossIncomeRecognizedEquityMethod>
+  <tw-gaap-ci:InvestmentLossIncomeRecognizedEquityMethod contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-12990000</tw-gaap-ci:InvestmentLossIncomeRecognizedEquityMethod>
+  <tw-gaap-ci:NetChangesCashCashEquivalents contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">49654000</tw-gaap-ci:NetChangesCashCashEquivalents>
+  <tw-gaap-ci:NetChangesCashCashEquivalents contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">37040000</tw-gaap-ci:NetChangesCashCashEquivalents>
+  <tw-gaap-ci:NetIncomeLoss_StatementCashFlows contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">55731000</tw-gaap-ci:NetIncomeLoss_StatementCashFlows>
+  <tw-gaap-ci:NetIncomeLoss_StatementCashFlows contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">41431000</tw-gaap-ci:NetIncomeLoss_StatementCashFlows>
+  <tw-gaap-ci:OtherAdjustmentsReconcileNetIncomeNetCashProvidedUsedOperatingActivities contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-271000</tw-gaap-ci:OtherAdjustmentsReconcileNetIncomeNetCashProvidedUsedOperatingActivities>
+  <tw-gaap-ci:OtherAdjustmentsReconcileNetIncomeNetCashProvidedUsedOperatingActivities contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">45663000</tw-gaap-ci:OtherAdjustmentsReconcileNetIncomeNetCashProvidedUsedOperatingActivities>
+  <tw-gaap-ci:ProceedsDisposalFinancialAssetsCarriedCost contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">0</tw-gaap-ci:ProceedsDisposalFinancialAssetsCarriedCost>
+  <tw-gaap-ci:ProceedsDisposalFinancialAssetsCarriedCost contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">8000000</tw-gaap-ci:ProceedsDisposalFinancialAssetsCarriedCost>
+  <tw-gaap-ci:ProceedsDisposalRentalAssetsIdleAssets contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">114000</tw-gaap-ci:ProceedsDisposalRentalAssetsIdleAssets>
+  <tw-gaap-ci:ProceedsDisposalRentalAssetsIdleAssets contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">62466000</tw-gaap-ci:ProceedsDisposalRentalAssetsIdleAssets>
+  <tw-gaap-ci:UnrealizedRevaluationGainFinancialAssetsLiabilities contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">155000</tw-gaap-ci:UnrealizedRevaluationGainFinancialAssetsLiabilities>
+  <tw-gaap-ci:UnrealizedRevaluationGainFinancialAssetsLiabilities contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">4463000</tw-gaap-ci:UnrealizedRevaluationGainFinancialAssetsLiabilities>
+  <tw-gaap-ci:NetCashProvidedUsedOperatingActivities contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">54096000</tw-gaap-ci:NetCashProvidedUsedOperatingActivities>
+  <tw-gaap-ci:NetCashProvidedUsedOperatingActivities contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">20622000</tw-gaap-ci:NetCashProvidedUsedOperatingActivities>
+  <tw-gaap-ci:AdjustmentsReconcileNetIncomeNetCashProvidedUsedOperatingActivities contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-1189000</tw-gaap-ci:AdjustmentsReconcileNetIncomeNetCashProvidedUsedOperatingActivities>
+  <tw-gaap-ci:AdjustmentsReconcileNetIncomeNetCashProvidedUsedOperatingActivities contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">14954000</tw-gaap-ci:AdjustmentsReconcileNetIncomeNetCashProvidedUsedOperatingActivities>
+  <tw-gaap-ci:ChangesOperatingAssetsLiabilities contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-446000</tw-gaap-ci:ChangesOperatingAssetsLiabilities>
+  <tw-gaap-ci:ChangesOperatingAssetsLiabilities contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-35763000</tw-gaap-ci:ChangesOperatingAssetsLiabilities>
+  <tw-gaap-ci:ChangesOperatingAssets contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-31226000</tw-gaap-ci:ChangesOperatingAssets>
+  <tw-gaap-ci:ChangesOperatingAssets contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-3131000</tw-gaap-ci:ChangesOperatingAssets>
+  <tw-gaap-ci:ChangesOperatingLiabilities contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">30780000</tw-gaap-ci:ChangesOperatingLiabilities>
+  <tw-gaap-ci:ChangesOperatingLiabilities contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-32632000</tw-gaap-ci:ChangesOperatingLiabilities>
+  <tw-gaap-ci:NetCashProvidedUsedInvestingActivities contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">-4449000</tw-gaap-ci:NetCashProvidedUsedInvestingActivities>
+  <tw-gaap-ci:NetCashProvidedUsedInvestingActivities contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">64604000</tw-gaap-ci:NetCashProvidedUsedInvestingActivities>
+  <tw-gaap-ci:NetCashProvidedUsedFinancingActivities contextRef="From20100101To20100930" decimals="-3" unitRef="TWD">7000</tw-gaap-ci:NetCashProvidedUsedFinancingActivities>
+  <tw-gaap-ci:NetCashProvidedUsedFinancingActivities contextRef="From20110101To20110930" decimals="-3" unitRef="TWD">-48186000</tw-gaap-ci:NetCashProvidedUsedFinancingActivities>
+  <tw-gaap-ar:AccountantName contextRef="AsOf20111028">資誠聯合會計師事務所</tw-gaap-ar:AccountantName>
+  <tw-gaap-ar:AssuranceAccountantName1 contextRef="AsOf20111028">翁世榮</tw-gaap-ar:AssuranceAccountantName1>
+  <tw-gaap-ar:AssuranceAccountantName2 contextRef="AsOf20111028">王輝賢</tw-gaap-ar:AssuranceAccountantName2>
+  <tw-gaap-ar:ReviewAuditDate contextRef="AsOf20111028">2011-10-28</tw-gaap-ar:ReviewAuditDate>
+  <tw-gaap-ar:ReviewReport contextRef="AsOf20111028">Y</tw-gaap-ar:ReviewReport>
+  <tw-gaap-ar:QualifiedOpinionAbstract contextRef="AsOf20111028">Y</tw-gaap-ar:QualifiedOpinionAbstract>
+  <tw-gaap-ar:ByInvestmentCompaniesWithoutAccountantAuditReportRecognizedGainLoss contextRef="AsOf20111028">Y</tw-gaap-ar:ByInvestmentCompaniesWithoutAccountantAuditReportRecognizedGainLoss>
+  <tw-gaap-ar:DescriptionEmphasizeItemBody contextRef="AsOf20111028"><![CDATA[]]></tw-gaap-ar:DescriptionEmphasizeItemBody>
+  <tw-gaap-ar:DescriptionOtherItemBody contextRef="AsOf20111028"><![CDATA[]]></tw-gaap-ar:DescriptionOtherItemBody>
+  <tw-gaap-ar:AccountantsReportBody contextRef="AsOf20111028"><![CDATA[資通電腦股份有限公司  公鑒： 
+     
+    　　資通電腦股份有限公司民國100年及99年9月30日之資產負債表，暨民國100年及 
+99年1月1日至9月30日之損益表及現金流量表，業經本會計師核閱竣事。上開財務報表之 
+編製係公司管理階層之責任，本會計師之責任則為根據核閱結果出具報告。 
+     
+    　　除下段所述者外，本會計師係依照中華民國審計準則公報第三十六號「財務報 
+表之核閱」規劃並執行核閱工作。由於本會計師僅實施分析、比較與查詢，並未依照中 
+華民國一般公認審計準則查核，故無法對上開財務報表之整體表示查核意見。 
+     
+    　　如財務報表附註四(七)所述，資通電腦股份有限公司民國100年及99年1月1日至 
+9月30日採權益法評價之長期股權投資及附註十一所揭露之被投資公司相關資訊，係依各 
+被投資公司同期間未經會計師核閱之財務報表評價及揭露；截至民國100年及99年9月30 
+日止，其相關之長期股權投資餘額分別為新台幣80,319仟元及62,114仟元(含減除表列其 
+他負債-其他之長期股權投資貸餘新台幣8,636仟元)，民國100年及99年1月1日至9月30日 
+所認列之投資利益分別為新台幣12,990仟元及5,471仟元。 
+     
+     
+     
+     
+    　　依本會計師核閱結果，除上段所述採權益法評價之長期股權投資及附註十一所 
+揭露之被投資公司相關資訊，若能取得被投資公司同期間經會計師核閱之財務報表，而 
+可能需作適當調整及揭露之影響外，並未發現第一段所述財務報表在所有重大方面有違 
+反「證券發行人財務報告編製準則」、「商業會計法」、「商業會計處理準則」及中華 
+民國一般公認會計原則而需作修正之情事。 
+     
+                                      
+                                      
+                                      
+                                     資  誠  聯  合  會  計  師  事  務  所 
+                                      
+                                               翁世榮 
+                                     會計師           
+                                               王輝賢 
+                                      
+                                     前財政部證券暨期貨管理委員會 
+                                     核准簽證文號：(88)台財證(六)第95577號 
+                                     前財政部證券管理委員會 
+                                     核准簽證文號：(81)台財證(六)第33095號 
+                                      
+                                     中華民國100年10月28日]]></tw-gaap-ar:AccountantsReportBody>
+  <tw-gaap-notes:FinancialReportNotes contextRef="From20110101To20110930"><![CDATA[http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=2471&year=100&seamon=3&mtype=A&]]></tw-gaap-notes:FinancialReportNotes>
+  <tw-gaap-notes:OrganizationAndOperations contextRef="From20110101To20110930"><![CDATA[　　(一)本公司係依中華民國公司法規定，於民國69年12月3日奉准設立。主要營業項目為電
+　　　　腦設備、網路及相關軟體之設計、買賣、租賃、維護、技術諮詢與應用套裝軟體之分析
+　　　　、設計、修改、安裝及維護等業務。
+　　(二)本公司股票原自民國88年3月起在中華民國證券櫃檯買賣中心買賣，經申請轉上市核
+　　　　准後，自民國90年9月起在臺灣證券交易所買賣。
+　　(三)截至民國100年9月30日止，本公司員工人數為324人。
+]]></tw-gaap-notes:OrganizationAndOperations>
+  <tw-gaap-notes:StatementOfFinancialStatementsPreparedInAccordanceWithRelatedRegulationsAndGenerallyAcceptedAccountingPrinciples contextRef="From20110101To20110930"><![CDATA[　　本財務報表係依照「證券發行人財務報告編製準則」、「商業會計法」、「商業會計處理
+　　準則」及中華民國一般公認會計原則編製。重要會計政策彙總說明如下：
+
+]]></tw-gaap-notes:StatementOfFinancialStatementsPreparedInAccordanceWithRelatedRegulationsAndGenerallyAcceptedAccountingPrinciples>
+  <tw-gaap-notes:ForeignCurrencyTransactionsAndTranslationOfForeignCurrencyFinancialStatements contextRef="From20110101To20110930"><![CDATA[　　　　1.本公司以新台幣為記帳單位，外幣交易按交易當日之即期匯率折算成新台幣入帳，其
+　　　　　與實際收付時之兌換差異，列為當年度損益。
+　　　　2.期末就外幣貨幣性資產或負債餘額，按資產負債表日之即期匯率評價調整，因調整而
+　　　　　產生之兌換差額列為當年度損益；惟與國外營運機構間具有長期投資性質之外幣墊款
+　　　　　所產生之兌換差額則列為股東權益調整項目。
+　　　　3.期末就外幣非貨幣性資產或負債餘額，屬依公平價值衡量且變動列入損益者，按資產
+　　　　　負債表日之即期匯率評價調整，因調整而產生之兌換差額列為當年度損益；屬依公平
+　　　　　價值衡量且變動列入股東權益調整項目者，按資產負債表日之即期匯率評價調整，因
+　　　　　調整而產生之兌換差額，列為股東權益調整項目；屬非依公平價值衡量者，則按交易
+　　　　　日之歷史匯率衡量。
+
+]]></tw-gaap-notes:ForeignCurrencyTransactionsAndTranslationOfForeignCurrencyFinancialStatements>
+  <tw-gaap-notes:UseOfEstimates contextRef="From20110101To20110930"><![CDATA[　　　　　本公司於編製財務報表時，業依照一般公認會計原則之規定，對財務報表所列金額及
+　　　　　或有事項，作必要之衡量、評估與揭露，其中包括若干假設及估計之採用，惟此等假
+　　　　　設及估計與實際結果可能存有差異。
+
+]]></tw-gaap-notes:UseOfEstimates>
+  <tw-gaap-notes:ClassificationOfCurrentAndNoncurrentAssetsAndLiabilities contextRef="From20110101To20110930"><![CDATA[　　　　本公司從事電腦設備暨軟體之分類銷售及系統整合設計等業務，其營業週期長於一年，
+　　　　故與電腦設備暨軟體銷售及系統整合設計之業務有關之資產及負債，係按營業週期作為
+　　　　劃分其流動或非流動之基準，其餘科目之劃分標準如下：
+　　　　1.資產符合下列條件之一者，列為流動資產；資產不屬於流動資產者為非流動資產：
+　　　　　(1)因營業所產生之資產，預期將於正常營業週期中變現、消耗或意圖出售者。
+　　　　　(2)主要為交易目的而持有者。
+　　　　　(3)預期於資產負債表日後十二個月內將變現者。
+　　　　　(4)現金或約當現金，但於資產負債表日後逾十二個月用以交換、清償負債或受有其他
+　　　　　　　限制者除外。
+　　　　2.負債符合下列條件之一者，列為流動負債；負債不屬於流動負債者為非流動負債：
+　　　　　(1)因營業而發生之債務，預期將於正常營業週期中清償者。
+　　　　　(2)主要為交易目的而發生者。
+　　　　　(3)須於資產負債表日後十二個月內清償者。
+　　　　　(4)不能無條件延期至資產負債表日後逾十二個月清償之負債。
+
+]]></tw-gaap-notes:ClassificationOfCurrentAndNoncurrentAssetsAndLiabilities>
+  <tw-gaap-notes:FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss contextRef="From20110101To20110930"><![CDATA[　　　　1.採交易日會計，於原始認列時，將金融商品以公平價值衡量。
+　　　　2.公平價值變動列入損益之金融資產與負債係以公平價值評價且其價值變動列為當期損
+　　　　　益。上市(櫃)股票、封閉型基金及存託憑證係以資產負債表日公開市場之收盤價為公
+　　　　　平價值。開放型基金係以資產負債表日該基金淨資產價值為公平價值。
+　　　　3.本公司指定公平價值變動列入損益之金融資產與負債者，其所適用之條件如下：
+　　　　　(1)係為混合商品。
+　　　　　(2)該指定可消除或重大減少衡量或認列之不一致。
+　　　　　(3)係依本公司明訂之風險管理或投資策略共同管理，並以公平價值基礎評價績效目的
+　　　　　　　所作之指定。
+
+]]></tw-gaap-notes:FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss>
+  <tw-gaap-notes:HeldToMaturityFinancialAssets contextRef="From20110101To20110930"><![CDATA[　　　　1.採交易日會計，於原始認列時，將金融商品以公平價值衡量，並加計取得之交易成本
+　　　　　。
+　　　　2.持有至到期日金融資產係以攤銷後成本衡量。
+　　　　3.若有減損之客觀證據，則認列減損損失。若後續期間減損金額減少，且明顯與認列減
+　　　　　損後發生之事件有關，則予以迴轉並認列為當期損益，該迴轉不使帳面價值大於未認
+　　　　　列減損情況下之攤銷後成本。
+
+]]></tw-gaap-notes:HeldToMaturityFinancialAssets>
+  <tw-gaap-notes:FinancialAssetsMeasuredAtCost contextRef="From20110101To20110930"><![CDATA[　　　　1.係採交易日會計，於原始認列時，將金融商品以公平價值衡量，並加計取得或發行之
+　　　　　交易成本。
+　　　　2.以成本衡量之金融資產若有減損之客觀證據，則認列減損損失，此減損金額不予迴轉
+　　　　　。
+
+]]></tw-gaap-notes:FinancialAssetsMeasuredAtCost>
+  <tw-gaap-notes:NotesAndAccountsReceivableOtherReceivable contextRef="From20110101To20110930"><![CDATA[　　　　民國100年1月1日以後，採用新修訂之財務會計準則公報第三十四號「金融商品會計處
+　　　　　理準則」，其處理如下：
+　　　　　應收票據及帳款係因出售商品或勞務而發生之債權，其他應收款係不屬於應收票據及
+　　　　　帳款之其他應收款項。應收票據及帳款、其他應收款原始認列時以公平價值衡量，續
+　　　　　後以有效利率法之攤銷後成本減除減損後之金額衡量。
+　　　　　本公司於資產負債表日評估是否存在客觀證據，顯示重大個別金融資產發生減損，以
+　　　　　及非屬重大之個別金融資產單獨或共同發生減損。若有減損之客觀證據,則認列減損損
+　　　　　失。減損金額為金融資產之帳面價值與其估計未來現金流量採原始有效利率折現之現
+　　　　　值間之差額。若後續期間減損金額減少,而該減少明顯與認列減損後發生之事件有關，
+　　　　　則迴轉先前認列之金融資產減損金額，該迴轉不應使金融資產帳面金額大於未認列減
+　　　　　損情況下之攤銷後成本，迴轉之金額認列於當期損益。
+　　　　民國99年12月31日以前之會計處理如下：
+　　　　　應收帳款按設算利率計算其折現值為入帳基礎，惟到期日在一年內者，其折現值與到
+　　　　　期值差異不大，按帳載金額評價，續後依據過去實際發生之呆帳經驗，衡量資產負債
+　　　　　表日應收票據、應收帳款等各項債權之帳齡情形及其收回可能性，予以評估提列備抵
+　　　　　呆帳。
+
+]]></tw-gaap-notes:NotesAndAccountsReceivableOtherReceivable>
+  <tw-gaap-notes:ImpairmentOfNonFinancialAsset contextRef="From20110101To20110930"><![CDATA[　　　　　本公司於資產負債表日針對有減損跡象之資產，估計其可回收金額，當可回收金額低
+　　　　　於其帳面價值時，則認列減損損失。可回收金額係指一項資產之淨公平價值或其使用
+　　　　　價值，兩者較高者。當以前年度認列資產減損之情況不再存在時，則在以前年度提列
+　　　　　損失金額之範圍內予以迴轉。
+
+]]></tw-gaap-notes:ImpairmentOfNonFinancialAsset>
+  <tw-gaap-notes:LongTermInvestmentsUnderEquityMethod contextRef="From20110101To20110930"><![CDATA[　　　　1.持有被投資公司有表決權股份比例達20%以上或具有重大影響力者，採權益法評價。
+　　　　　投資成本與股權淨值之差額，如屬投資成本超過所取得可辨認淨資產公平價值，將超
+　　　　　過部分列為商譽，並於每年定期執行減損測試，以前年度攤銷者，不再追溯調整。持
+　　　　　有被投資公司有表決權股份比例超過50%或具有控制力者，採權益法評價並編製合併報
+　　　　　表。
+　　　　2.採權益法評價若因認列被投資公司之虧損而致對該被投資公司之長期投資及墊款之帳
+　　　　　面價值為負時，若公司意圖繼續支持被投資公司，或被投資公司之虧損係屬短期性質
+　　　　　，有充分之證據顯示將於未來短期內回復獲利時，應依約當持股比例繼續認列損失，
+　　　　　如因此而致對該公司投資及墊款之帳面價值發生貸方餘額時，在資產負債表中列為負
+　　　　　債。
+　　　　3.海外投資按權益法評價時，被投資公司財務報表轉換所產生之「累積換算調整數」作
+　　　　　為本公司股東權益之調整項目。
+
+]]></tw-gaap-notes:LongTermInvestmentsUnderEquityMethod>
+  <tw-gaap-notes:PropertyPlantAndEquipmentAssetsLeasedToOthersAndIdleAssets contextRef="From20110101To20110930"><![CDATA[　　　　1.以成本為入帳基礎，成本包括達到可使用狀態前所發生之一切必要支出。折舊之提列
+　　　　　係依估計經濟耐用年限加計一年殘值，按平均法計提﹔於耐用年限屆滿仍繼續使用者
+　　　　　，依自行預估可使用年數，按平均法繼續提列折舊。
+　　　　2.固定資產之耐用年限為2~10年，出租資產(土地除外)之耐用年限為55年。
+　　　　3.凡支出效益及於以後各期之重大改良或大修支出列為資本支出，經常性維護或修理支
+　　　　　出則列為當期費用。固定資產處分損益列為當期營業外收支項下。
+
+]]></tw-gaap-notes:PropertyPlantAndEquipmentAssetsLeasedToOthersAndIdleAssets>
+  <tw-gaap-notes:DeferredChargesAssets contextRef="From20110101To20110930"><![CDATA[　　　　遞延費用係本公司購置供營業使用之電腦軟體等，以取得成本為入帳基礎，並按其估計
+　　　　效益年限採直線法攤銷。
+
+]]></tw-gaap-notes:DeferredChargesAssets>
+  <tw-gaap-notes:ProductWarranty contextRef="From20110101To20110930"><![CDATA[　　　　　銷貨附有售後服務保固者，依據過去經驗預估售後服務保固成本，於銷貨發生年度認
+　　　　　列為當期成本，其負債並按性質列為流動負債。
+
+]]></tw-gaap-notes:ProductWarranty>
+  <tw-gaap-notes:PensionPlan contextRef="From20110101To20110930"><![CDATA[　　　　退休金辦法屬確定給付退休辦法者，係依據精算結果認列淨退休金成本，淨退休金成本
+　　　　包括當期服務成本、利息成本、基金資產之預期報酬及未認列過渡性淨給付義務與退休
+　　　　金損益之攤銷數。未認列過渡性淨給付義務按15年攤提。退休金辦法屬確定提撥退休辦
+　　　　法者，則依權責發生基礎將應提撥之退休基金數額認列為當期之退休金成本。
+　　　　退休金辦法屬確定提撥辦法者，每月就薪資總額6%提撥職工退休基金。本公司依權責發
+　　　　生基礎將應提撥之金額認列為當期之退休金成本。
+
+]]></tw-gaap-notes:PensionPlan>
+  <tw-gaap-notes:IncomeTax contextRef="From20110101To20110930"><![CDATA[　　　　　1.所得稅之會計處理採跨期間與同期間之所得稅分攤，以前年度溢低估之所得稅，列
+　　　　　　為當期所得稅費用之調整項目。當稅法修正時，於公布日之年度按新規定將遞延所得
+　　　　　　稅負債或資產重新計算，因而產生之遞延所得稅負債或資產之變動影響數，列入當期
+　　　　　　繼續營業部門之所得稅費用(利益)。
+　　　　　2.因研究發展支出等所產生之所得稅抵減採當期認列法處理。
+　　　　　3.未分配盈餘依所得稅法加徵10%之營利事業所得稅，於股東會決議分配盈餘後列為當
+　　　　　　期費用。
+
+]]></tw-gaap-notes:IncomeTax>
+  <tw-gaap-notes:EmployeeBonusAndRemunerationsPaidToDirectorsAndSupervisors contextRef="From20110101To20110930"><![CDATA[　　　　　自民國97年1月1日起，本公司員工分紅及董監酬勞成本，依民國96年3月16日財團法人
+　　　　　中華民國會計研究發展基金會(96)基秘字第052號 函「員工分紅及董監酬勞會計處理
+　　　　　」之規定，於具法律義務或推定義務且金額可合理估計時，認列為費用及負債。嗣後
+　　　　　股東會決議實際配發金額與估列金額有差異時，則列為次年度之損益。
+
+]]></tw-gaap-notes:EmployeeBonusAndRemunerationsPaidToDirectorsAndSupervisors>
+  <tw-gaap-notes:TreasuryStock contextRef="From20110101To20110930"><![CDATA[　　　　　1.本公司收回已發行股票作為庫藏股票時，其屬買回者，應將所支付之成本借記「庫
+　　　　　　藏股票」科目，列為股東權益之減項。
+　　　　　2.庫藏股票轉讓給員工之給與日在民國97年1月1日(含)以後者，依財務會計準則公報
+　　　　　　第三十九號「股份基礎給付之會計處理準則」處理。
+　　　　　3.註銷庫藏股票時，貸記「庫藏股票」，並按股權比例借記「資本公積-股票發行溢價
+　　　　　　」與「股本」。庫藏股票之帳面價值如高於面值與股票發行溢價之合計數時，其差額
+　　　　　　沖銷同種類庫藏股票所產生之資本公積，如有不足再借記保留盈餘；反之，其差額貸
+　　　　　　記同種類庫藏股票交易所產生之資本公積。
+　　　　　4.庫藏股票之帳面價值係按加權平均法計算。
+
+]]></tw-gaap-notes:TreasuryStock>
+  <tw-gaap-notes:RevenueRecognition contextRef="From20110101To20110930"><![CDATA[　　　　　1.一般收入/成本及費用
+　　　　　　收入於獲利過程大部份已完成，且已實現或可實現時認列，相關成本配合收入於發生
+　　　　　　時承認。費用則依權責發生制於發生時認列為當期費用。
+　　　　　2.勞務收入
+　　　　　　勞務通常指本公司在合約期間內履行約定之工作。
+　　　　　　當提供勞務之交易結果可合理估計時，於提供勞務之會計期間採完工比例法認列收入
+　　　　　　，勞務收入係分別按專案性質依已履行勞務量佔全部預計應履行勞務量之百分比計算
+　　　　　　認列，期末就已實際履行勞務量之百分比計算累積勞務收入，並減除前期已認列之累
+　　　　　　積勞務收入後作為本期應認列之勞務收入。
+　　　　　　當提供勞務之交易結果無法合理估計時，收入之認列係考慮已發生成本回收之可能性
+　　　　　　，若很有可能收回，就已發生成本範圍內認列收入；若非屬很有可能收回時，則不認
+　　　　　　列收入，該已發生成本則於當期認列為成本。
+　　　　　　當提供勞務之交易結果估計發生虧損時，則立即認列損失。
+　　　　　　期末將同一勞務合約專案應收勞務款餘額超過預收勞務款餘額之金額及預收勞務款餘
+　　　　　　額超過應收勞務款餘額之金額，分別帳列資產負債表之流動資產及流動負債項下。
+
+]]></tw-gaap-notes:RevenueRecognition>
+  <tw-gaap-notes:OperatingSegment contextRef="From20110101To20110930"><![CDATA[　　　　　1.本公司營運部門資訊與提供給營運決策者之內部管理報告採一致之方式報導。營運
+　　　　　　決策者負責分配資源予營運部門並評估其績效。
+　　　　　2.本公司依財務會計準則公報第四十一號「營運部門資訊之揭露」於合併財務報表揭
+　　　　　　露部門資訊，而不於個別財務報表揭露部門資訊。
+
+]]></tw-gaap-notes:OperatingSegment>
+  <tw-gaap-notes:Others contextRef="From20110101To20110930">
+    <tw-gaap-notes:Item contextRef="From20110101To20110930"><![CDATA[政府輔助]]></tw-gaap-notes:Item>
+    <tw-gaap-notes:Description contextRef="From20110101To20110930"><![CDATA[　　　　　依財務會計準則公報第二十九號「政府輔助之會計處理準則」之規定，於符合政府捐
+　　　　　助之相關條件，並可收到該項政府捐助時，配合其相關成本之發生期間認列政府捐助
+　　　　　收入，帳列營業外收入及利益－什項收入。
+]]></tw-gaap-notes:Description>
+  </tw-gaap-notes:Others>
+  <tw-gaap-notes:ChangesInAccountingPrinciples contextRef="From20110101To20110930"><![CDATA[　　(一)應收票據及帳款、其他應收款
+　　　　本公司自民國100年1月1日起，採用新修訂之財務會計準則公報第三十四號「金融商品
+　　　　之會計處理準則」，就應收票據及帳款、其他應收款等各項債權，於有減損之客觀證據
+　　　　時認列減損(呆帳)損失，此項會計原則變動並不影響民國100年前三季之淨利及每股盈
+　　　　餘。
+　　(二)營運部門
+　　　　本公司自民國100年1月1日起，採用新發布之財務會計準則公報第四十一號「營運部門
+　　　　資訊之揭露」，以取代原財務會計準則公報第二十號「部門別財務資訊之揭露」，本公
+　　　　司於首次適用時，並依公報規定重編前一年度之部門資訊。此項會計原則變動並不影響
+　　　　民國100年及99年前三季之淨利及每股盈餘。
+]]></tw-gaap-notes:ChangesInAccountingPrinciples>
+</xbrli:xbrl>

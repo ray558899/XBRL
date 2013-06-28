@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:tw-gaap-ar="http://www.xbrl.org/tw/fr/gaap/ar/2011-12-31" xmlns:tw-gaap-ci="http://www.xbrl.org/tw/fr/gaap/tw-gaap-ci-2011-12-31" xmlns:tw-gaap-notes="http://www.xbrl.org/tw/fr/gaap/notes/2011-12-31" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="tw-gaap-ci-2011-12-31.xsd" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" />
+  <xbrli:context id="AsOf20120101">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">1201</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="AsOf20120331">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">1201</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="From20120101To20120331">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">1201</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="AsOf20110101">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">1201</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="AsOf20110331">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">1201</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="From20110101To20110331">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">1201</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2011-01-01</xbrli:startDate>
+      <xbrli:endDate>2011-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="AsOf20120430">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.twse.com.tw">1201</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-04-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="Shares">
+    <xbrli:measure>xbrli:shares</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="EarningsPerShare">
+    <xbrli:divide>
+      <xbrli:unitNumerator>
+        <xbrli:measure>iso4217:TWD</xbrli:measure>
+      </xbrli:unitNumerator>
+      <xbrli:unitDenominator>
+        <xbrli:measure>xbrli:shares</xbrli:measure>
+      </xbrli:unitDenominator>
+    </xbrli:divide>
+  </xbrli:unit>
+  <xbrli:unit id="AED">
+    <xbrli:measure>iso4217:AED</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="AUD">
+    <xbrli:measure>iso4217:AUD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="BRL">
+    <xbrli:measure>iso4217:BRL</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="CAD">
+    <xbrli:measure>iso4217:CAD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="CHF">
+    <xbrli:measure>iso4217:CHF</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="CLP">
+    <xbrli:measure>iso4217:CLP</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="CNY">
+    <xbrli:measure>iso4217:CNY</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="CZK">
+    <xbrli:measure>iso4217:CZK</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="GBP">
+    <xbrli:measure>iso4217:GBP</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="HKD">
+    <xbrli:measure>iso4217:HKD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="IDR">
+    <xbrli:measure>iso4217:IDR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="ILS">
+    <xbrli:measure>iso4217:ILS</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="INR">
+    <xbrli:measure>iso4217:INR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="JPY">
+    <xbrli:measure>iso4217:JPY</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="KRW">
+    <xbrli:measure>iso4217:KRW</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="MOP">
+    <xbrli:measure>iso4217:MOP</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="MXN">
+    <xbrli:measure>iso4217:MXN</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="MYR">
+    <xbrli:measure>iso4217:MYR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="NOK">
+    <xbrli:measure>iso4217:NOK</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="NZD">
+    <xbrli:measure>iso4217:NZD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="PHP">
+    <xbrli:measure>iso4217:PHP</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="PLN">
+    <xbrli:measure>iso4217:PLN</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="RUB">
+    <xbrli:measure>iso4217:RUB</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="SAR">
+    <xbrli:measure>iso4217:SAR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="SGD">
+    <xbrli:measure>iso4217:SGD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="THB">
+    <xbrli:measure>iso4217:THB</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="TRY">
+    <xbrli:measure>iso4217:TRY</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="TWD">
+    <xbrli:measure>iso4217:TWD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="USD">
+    <xbrli:measure>iso4217:USD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="VND">
+    <xbrli:measure>iso4217:VND</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="ZAR">
+    <xbrli:measure>iso4217:ZAR</xbrli:measure>
+  </xbrli:unit>
+  <tw-gaap-ci:CashCashEquivalents contextRef="AsOf20110331" decimals="-3" unitRef="TWD">263236000</tw-gaap-ci:CashCashEquivalents>
+  <tw-gaap-ci:CashCashEquivalents contextRef="AsOf20120331" decimals="-3" unitRef="TWD">511419000</tw-gaap-ci:CashCashEquivalents>
+  <tw-gaap-ci:FinancialAssetsCarriedCostCurrent contextRef="AsOf20110331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:FinancialAssetsCarriedCostCurrent>
+  <tw-gaap-ci:FinancialAssetsCarriedCostCurrent contextRef="AsOf20120331" decimals="-3" unitRef="TWD">7580000</tw-gaap-ci:FinancialAssetsCarriedCostCurrent>
+  <tw-gaap-ci:NetNotesReceivable contextRef="AsOf20110331" decimals="-3" unitRef="TWD">42037000</tw-gaap-ci:NetNotesReceivable>
+  <tw-gaap-ci:NetNotesReceivable contextRef="AsOf20120331" decimals="-3" unitRef="TWD">73078000</tw-gaap-ci:NetNotesReceivable>
+  <tw-gaap-ci:NetAccountsReceivable contextRef="AsOf20110331" decimals="-3" unitRef="TWD">1311372000</tw-gaap-ci:NetAccountsReceivable>
+  <tw-gaap-ci:NetAccountsReceivable contextRef="AsOf20120331" decimals="-3" unitRef="TWD">1543925000</tw-gaap-ci:NetAccountsReceivable>
+  <tw-gaap-ci:NetAccountsReceivableRelatedParties contextRef="AsOf20110331" decimals="-3" unitRef="TWD">47164000</tw-gaap-ci:NetAccountsReceivableRelatedParties>
+  <tw-gaap-ci:NetAccountsReceivableRelatedParties contextRef="AsOf20120331" decimals="-3" unitRef="TWD">51700000</tw-gaap-ci:NetAccountsReceivableRelatedParties>
+  <tw-gaap-ci:OtherReceivables contextRef="AsOf20110331" decimals="-3" unitRef="TWD">121062000</tw-gaap-ci:OtherReceivables>
+  <tw-gaap-ci:OtherReceivables contextRef="AsOf20120331" decimals="-3" unitRef="TWD">229537000</tw-gaap-ci:OtherReceivables>
+  <tw-gaap-ci:Inventories contextRef="AsOf20110331" decimals="-3" unitRef="TWD">1036538000</tw-gaap-ci:Inventories>
+  <tw-gaap-ci:Inventories contextRef="AsOf20120331" decimals="-3" unitRef="TWD">1026523000</tw-gaap-ci:Inventories>
+  <tw-gaap-ci:DeferredIncomeTaxAssetsCurrent contextRef="AsOf20110331" decimals="-3" unitRef="TWD">5077000</tw-gaap-ci:DeferredIncomeTaxAssetsCurrent>
+  <tw-gaap-ci:DeferredIncomeTaxAssetsCurrent contextRef="AsOf20120331" decimals="-3" unitRef="TWD">6810000</tw-gaap-ci:DeferredIncomeTaxAssetsCurrent>
+  <tw-gaap-ci:OthercurrentAssetsOther contextRef="AsOf20110331" decimals="-3" unitRef="TWD">46228000</tw-gaap-ci:OthercurrentAssetsOther>
+  <tw-gaap-ci:OthercurrentAssetsOther contextRef="AsOf20120331" decimals="-3" unitRef="TWD">39576000</tw-gaap-ci:OthercurrentAssetsOther>
+  <tw-gaap-ci:AvailablesaleFinancialAssetsNonCurrent contextRef="AsOf20110331" decimals="-3" unitRef="TWD">4332000</tw-gaap-ci:AvailablesaleFinancialAssetsNonCurrent>
+  <tw-gaap-ci:AvailablesaleFinancialAssetsNonCurrent contextRef="AsOf20120331" decimals="-3" unitRef="TWD">5165000</tw-gaap-ci:AvailablesaleFinancialAssetsNonCurrent>
+  <tw-gaap-ci:NetFinancialAssetsCarriedCostNonCurrent contextRef="AsOf20110331" decimals="-3" unitRef="TWD">47698000</tw-gaap-ci:NetFinancialAssetsCarriedCostNonCurrent>
+  <tw-gaap-ci:NetFinancialAssetsCarriedCostNonCurrent contextRef="AsOf20120331" decimals="-3" unitRef="TWD">34975000</tw-gaap-ci:NetFinancialAssetsCarriedCostNonCurrent>
+  <tw-gaap-ci:LongtermInvestmentsEquity contextRef="AsOf20110331" decimals="-3" unitRef="TWD">5210246000</tw-gaap-ci:LongtermInvestmentsEquity>
+  <tw-gaap-ci:LongtermInvestmentsEquity contextRef="AsOf20120331" decimals="-3" unitRef="TWD">5368929000</tw-gaap-ci:LongtermInvestmentsEquity>
+  <tw-gaap-ci:OtherFinancialAssetsNonCurrent contextRef="AsOf20110331" decimals="-3" unitRef="TWD">8500000</tw-gaap-ci:OtherFinancialAssetsNonCurrent>
+  <tw-gaap-ci:OtherFinancialAssetsNonCurrent contextRef="AsOf20120331" decimals="-3" unitRef="TWD">8500000</tw-gaap-ci:OtherFinancialAssetsNonCurrent>
+  <tw-gaap-ci:Land contextRef="AsOf20110331" decimals="-3" unitRef="TWD">295709000</tw-gaap-ci:Land>
+  <tw-gaap-ci:Land contextRef="AsOf20120331" decimals="-3" unitRef="TWD">330870000</tw-gaap-ci:Land>
+  <tw-gaap-ci:BuildingsStructures contextRef="AsOf20110331" decimals="-3" unitRef="TWD">1829941000</tw-gaap-ci:BuildingsStructures>
+  <tw-gaap-ci:BuildingsStructures contextRef="AsOf20120331" decimals="-3" unitRef="TWD">1765146000</tw-gaap-ci:BuildingsStructures>
+  <tw-gaap-ci:MachineryEquipment contextRef="AsOf20110331" decimals="-3" unitRef="TWD">1845867000</tw-gaap-ci:MachineryEquipment>
+  <tw-gaap-ci:MachineryEquipment contextRef="AsOf20120331" decimals="-3" unitRef="TWD">1865616000</tw-gaap-ci:MachineryEquipment>
+  <tw-gaap-ci:TransportationEquipment contextRef="AsOf20110331" decimals="-3" unitRef="TWD">334201000</tw-gaap-ci:TransportationEquipment>
+  <tw-gaap-ci:TransportationEquipment contextRef="AsOf20120331" decimals="-3" unitRef="TWD">388864000</tw-gaap-ci:TransportationEquipment>
+  <tw-gaap-ci:OfficeEquipment contextRef="AsOf20110331" decimals="-3" unitRef="TWD">700639000</tw-gaap-ci:OfficeEquipment>
+  <tw-gaap-ci:OfficeEquipment contextRef="AsOf20120331" decimals="-3" unitRef="TWD">714587000</tw-gaap-ci:OfficeEquipment>
+  <tw-gaap-ci:OtherFacilities contextRef="AsOf20110331" decimals="-3" unitRef="TWD">2167421000</tw-gaap-ci:OtherFacilities>
+  <tw-gaap-ci:OtherFacilities contextRef="AsOf20120331" decimals="-3" unitRef="TWD">2274124000</tw-gaap-ci:OtherFacilities>
+  <tw-gaap-ci:RevaluationIncrement contextRef="AsOf20110331" decimals="-3" unitRef="TWD">2795416000</tw-gaap-ci:RevaluationIncrement>
+  <tw-gaap-ci:RevaluationIncrement contextRef="AsOf20120331" decimals="-3" unitRef="TWD">3699791000</tw-gaap-ci:RevaluationIncrement>
+  <tw-gaap-ci:AccumulatedDepreciation contextRef="AsOf20110331" decimals="-3" unitRef="TWD">4751793000</tw-gaap-ci:AccumulatedDepreciation>
+  <tw-gaap-ci:AccumulatedDepreciation contextRef="AsOf20120331" decimals="-3" unitRef="TWD">5020140000</tw-gaap-ci:AccumulatedDepreciation>
+  <tw-gaap-ci:AccumulatedImpairmentFixedAssets contextRef="AsOf20110331" decimals="-3" unitRef="TWD">3365000</tw-gaap-ci:AccumulatedImpairmentFixedAssets>
+  <tw-gaap-ci:AccumulatedImpairmentFixedAssets contextRef="AsOf20120331" decimals="-3" unitRef="TWD">3365000</tw-gaap-ci:AccumulatedImpairmentFixedAssets>
+  <tw-gaap-ci:ConstructionProcessPrepaymentEquipments contextRef="AsOf20110331" decimals="-3" unitRef="TWD">155874000</tw-gaap-ci:ConstructionProcessPrepaymentEquipments>
+  <tw-gaap-ci:ConstructionProcessPrepaymentEquipments contextRef="AsOf20120331" decimals="-3" unitRef="TWD">143525000</tw-gaap-ci:ConstructionProcessPrepaymentEquipments>
+  <tw-gaap-ci:NetRentalAssets contextRef="AsOf20110331" decimals="-3" unitRef="TWD">263911000</tw-gaap-ci:NetRentalAssets>
+  <tw-gaap-ci:NetRentalAssets contextRef="AsOf20120331" decimals="-3" unitRef="TWD">228423000</tw-gaap-ci:NetRentalAssets>
+  <tw-gaap-ci:NetIdledAssets contextRef="AsOf20110331" decimals="-3" unitRef="TWD">286495000</tw-gaap-ci:NetIdledAssets>
+  <tw-gaap-ci:NetIdledAssets contextRef="AsOf20120331" decimals="-3" unitRef="TWD">251488000</tw-gaap-ci:NetIdledAssets>
+  <tw-gaap-ci:GuaranteeDepositsPaid contextRef="AsOf20110331" decimals="-3" unitRef="TWD">15959000</tw-gaap-ci:GuaranteeDepositsPaid>
+  <tw-gaap-ci:GuaranteeDepositsPaid contextRef="AsOf20120331" decimals="-3" unitRef="TWD">18519000</tw-gaap-ci:GuaranteeDepositsPaid>
+  <tw-gaap-ci:LongtermNotesAccountsReceivable contextRef="AsOf20110331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:LongtermNotesAccountsReceivable>
+  <tw-gaap-ci:LongtermNotesAccountsReceivable contextRef="AsOf20120331" decimals="-3" unitRef="TWD">537294000</tw-gaap-ci:LongtermNotesAccountsReceivable>
+  <tw-gaap-ci:DeferredIncomeTaxAssetsNonCurrent contextRef="AsOf20110331" decimals="-3" unitRef="TWD">117198000</tw-gaap-ci:DeferredIncomeTaxAssetsNonCurrent>
+  <tw-gaap-ci:DeferredIncomeTaxAssetsNonCurrent contextRef="AsOf20120331" decimals="-3" unitRef="TWD">113391000</tw-gaap-ci:DeferredIncomeTaxAssetsNonCurrent>
+  <tw-gaap-ci:OtherAssetsOther_OtherAssetsOther contextRef="AsOf20110331" decimals="-3" unitRef="TWD">12613000</tw-gaap-ci:OtherAssetsOther_OtherAssetsOther>
+  <tw-gaap-ci:OtherAssetsOther_OtherAssetsOther contextRef="AsOf20120331" decimals="-3" unitRef="TWD">11964000</tw-gaap-ci:OtherAssetsOther_OtherAssetsOther>
+  <tw-gaap-ci:ShortTermBorrowings contextRef="AsOf20110331" decimals="-3" unitRef="TWD">792386000</tw-gaap-ci:ShortTermBorrowings>
+  <tw-gaap-ci:ShortTermBorrowings contextRef="AsOf20120331" decimals="-3" unitRef="TWD">100000000</tw-gaap-ci:ShortTermBorrowings>
+  <tw-gaap-ci:NotesPayable contextRef="AsOf20110331" decimals="-3" unitRef="TWD">3454000</tw-gaap-ci:NotesPayable>
+  <tw-gaap-ci:NotesPayable contextRef="AsOf20120331" decimals="-3" unitRef="TWD">1587000</tw-gaap-ci:NotesPayable>
+  <tw-gaap-ci:AccountsPayable contextRef="AsOf20110331" decimals="-3" unitRef="TWD">778919000</tw-gaap-ci:AccountsPayable>
+  <tw-gaap-ci:AccountsPayable contextRef="AsOf20120331" decimals="-3" unitRef="TWD">687730000</tw-gaap-ci:AccountsPayable>
+  <tw-gaap-ci:AccountsPayableRelatedParties contextRef="AsOf20110331" decimals="-3" unitRef="TWD">305735000</tw-gaap-ci:AccountsPayableRelatedParties>
+  <tw-gaap-ci:AccountsPayableRelatedParties contextRef="AsOf20120331" decimals="-3" unitRef="TWD">302609000</tw-gaap-ci:AccountsPayableRelatedParties>
+  <tw-gaap-ci:IncomeTaxPayable contextRef="AsOf20110331" decimals="-3" unitRef="TWD">26328000</tw-gaap-ci:IncomeTaxPayable>
+  <tw-gaap-ci:IncomeTaxPayable contextRef="AsOf20120331" decimals="-3" unitRef="TWD">142400000</tw-gaap-ci:IncomeTaxPayable>
+  <tw-gaap-ci:AccruedExpenses contextRef="AsOf20110331" decimals="-3" unitRef="TWD">605667000</tw-gaap-ci:AccruedExpenses>
+  <tw-gaap-ci:AccruedExpenses contextRef="AsOf20120331" decimals="-3" unitRef="TWD">727059000</tw-gaap-ci:AccruedExpenses>
+  <tw-gaap-ci:OtherCurrentLiabilitiesOther contextRef="AsOf20110331" decimals="-3" unitRef="TWD">83436000</tw-gaap-ci:OtherCurrentLiabilitiesOther>
+  <tw-gaap-ci:OtherCurrentLiabilitiesOther contextRef="AsOf20120331" decimals="-3" unitRef="TWD">193786000</tw-gaap-ci:OtherCurrentLiabilitiesOther>
+  <tw-gaap-ci:LongtermBorrowings contextRef="AsOf20110331" decimals="-3" unitRef="TWD">2050000000</tw-gaap-ci:LongtermBorrowings>
+  <tw-gaap-ci:LongtermBorrowings contextRef="AsOf20120331" decimals="-3" unitRef="TWD">3070000000</tw-gaap-ci:LongtermBorrowings>
+  <tw-gaap-ci:ReserveLandRevaluationIncrementTax contextRef="AsOf20110331" decimals="-3" unitRef="TWD">748907000</tw-gaap-ci:ReserveLandRevaluationIncrementTax>
+  <tw-gaap-ci:ReserveLandRevaluationIncrementTax contextRef="AsOf20120331" decimals="-3" unitRef="TWD">1007250000</tw-gaap-ci:ReserveLandRevaluationIncrementTax>
+  <tw-gaap-ci:PensionReserve contextRef="AsOf20110331" decimals="-3" unitRef="TWD">1369712000</tw-gaap-ci:PensionReserve>
+  <tw-gaap-ci:PensionReserve contextRef="AsOf20120331" decimals="-3" unitRef="TWD">1441458000</tw-gaap-ci:PensionReserve>
+  <tw-gaap-ci:GuaranteeDepositsReceived contextRef="AsOf20110331" decimals="-3" unitRef="TWD">27866000</tw-gaap-ci:GuaranteeDepositsReceived>
+  <tw-gaap-ci:GuaranteeDepositsReceived contextRef="AsOf20120331" decimals="-3" unitRef="TWD">27754000</tw-gaap-ci:GuaranteeDepositsReceived>
+  <tw-gaap-ci:DeferredCreditsGainsonInterAffiliateAccounts contextRef="AsOf20110331" decimals="-3" unitRef="TWD">307694000</tw-gaap-ci:DeferredCreditsGainsonInterAffiliateAccounts>
+  <tw-gaap-ci:DeferredCreditsGainsonInterAffiliateAccounts contextRef="AsOf20120331" decimals="-3" unitRef="TWD">307694000</tw-gaap-ci:DeferredCreditsGainsonInterAffiliateAccounts>
+  <tw-gaap-ci:OtherLiabilities-Other contextRef="AsOf20110331" decimals="-3" unitRef="TWD">276449000</tw-gaap-ci:OtherLiabilities-Other>
+  <tw-gaap-ci:OtherLiabilities-Other contextRef="AsOf20120331" decimals="-3" unitRef="TWD">299986000</tw-gaap-ci:OtherLiabilities-Other>
+  <tw-gaap-ci:CommonStock contextRef="AsOf20110331" decimals="-3" unitRef="TWD">5060629000</tw-gaap-ci:CommonStock>
+  <tw-gaap-ci:CommonStock contextRef="AsOf20120331" decimals="-3" unitRef="TWD">5060629000</tw-gaap-ci:CommonStock>
+  <tw-gaap-ci:CapitalSurplusLongTermEquityInvestments contextRef="AsOf20110331" decimals="-3" unitRef="TWD">37921000</tw-gaap-ci:CapitalSurplusLongTermEquityInvestments>
+  <tw-gaap-ci:CapitalSurplusLongTermEquityInvestments contextRef="AsOf20120331" decimals="-3" unitRef="TWD">37921000</tw-gaap-ci:CapitalSurplusLongTermEquityInvestments>
+  <tw-gaap-ci:LegalReserve contextRef="AsOf20110331" decimals="-3" unitRef="TWD">81009000</tw-gaap-ci:LegalReserve>
+  <tw-gaap-ci:LegalReserve contextRef="AsOf20120331" decimals="-3" unitRef="TWD">244221000</tw-gaap-ci:LegalReserve>
+  <tw-gaap-ci:SpecialReserve contextRef="AsOf20110331" decimals="-3" unitRef="TWD">198299000</tw-gaap-ci:SpecialReserve>
+  <tw-gaap-ci:SpecialReserve contextRef="AsOf20120331" decimals="-3" unitRef="TWD">632352000</tw-gaap-ci:SpecialReserve>
+  <tw-gaap-ci:UnappropriatedRetainedEarnings contextRef="AsOf20110331" decimals="-3" unitRef="TWD">2079257000</tw-gaap-ci:UnappropriatedRetainedEarnings>
+  <tw-gaap-ci:UnappropriatedRetainedEarnings contextRef="AsOf20120331" decimals="-3" unitRef="TWD">1889557000</tw-gaap-ci:UnappropriatedRetainedEarnings>
+  <tw-gaap-ci:CumulativeTranslationAdjustments contextRef="AsOf20110331" decimals="-3" unitRef="TWD">-105177000</tw-gaap-ci:CumulativeTranslationAdjustments>
+  <tw-gaap-ci:CumulativeTranslationAdjustments contextRef="AsOf20120331" decimals="-3" unitRef="TWD">-2807000</tw-gaap-ci:CumulativeTranslationAdjustments>
+  <tw-gaap-ci:NetLossNotRecognizedPensionCost contextRef="AsOf20110331" decimals="-3" unitRef="TWD">522347000</tw-gaap-ci:NetLossNotRecognizedPensionCost>
+  <tw-gaap-ci:NetLossNotRecognizedPensionCost contextRef="AsOf20120331" decimals="-3" unitRef="TWD">593669000</tw-gaap-ci:NetLossNotRecognizedPensionCost>
+  <tw-gaap-ci:UnrealizedGainsLossesFinancialInstruments contextRef="AsOf20110331" decimals="-3" unitRef="TWD">3432000</tw-gaap-ci:UnrealizedGainsLossesFinancialInstruments>
+  <tw-gaap-ci:UnrealizedGainsLossesFinancialInstruments contextRef="AsOf20120331" decimals="-3" unitRef="TWD">4265000</tw-gaap-ci:UnrealizedGainsLossesFinancialInstruments>
+  <tw-gaap-ci:UnrealizedRevaluationIncrement contextRef="AsOf20110331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:UnrealizedRevaluationIncrement>
+  <tw-gaap-ci:UnrealizedRevaluationIncrement contextRef="AsOf20120331" decimals="-3" unitRef="TWD">646032000</tw-gaap-ci:UnrealizedRevaluationIncrement>
+  <tw-gaap-ci:EquivalentSharesOutstandingAdvanceReceiptsCommonStock contextRef="AsOf20110331" decimals="0" unitRef="Shares">0</tw-gaap-ci:EquivalentSharesOutstandingAdvanceReceiptsCommonStock>
+  <tw-gaap-ci:EquivalentSharesOutstandingAdvanceReceiptsCommonStock contextRef="AsOf20120331" decimals="0" unitRef="Shares">0</tw-gaap-ci:EquivalentSharesOutstandingAdvanceReceiptsCommonStock>
+  <tw-gaap-ci:NumberTreasuryStockAcquiredCompanySubsidiaries contextRef="AsOf20110331" decimals="0" unitRef="Shares">0</tw-gaap-ci:NumberTreasuryStockAcquiredCompanySubsidiaries>
+  <tw-gaap-ci:NumberTreasuryStockAcquiredCompanySubsidiaries contextRef="AsOf20120331" decimals="0" unitRef="Shares">0</tw-gaap-ci:NumberTreasuryStockAcquiredCompanySubsidiaries>
+  <tw-gaap-ci:Assets contextRef="AsOf20110331" decimals="-3" unitRef="TWD">14209576000</tw-gaap-ci:Assets>
+  <tw-gaap-ci:Assets contextRef="AsOf20120331" decimals="-3" unitRef="TWD">16227814000</tw-gaap-ci:Assets>
+  <tw-gaap-ci:OtherAssets contextRef="AsOf20110331" decimals="-3" unitRef="TWD">696176000</tw-gaap-ci:OtherAssets>
+  <tw-gaap-ci:OtherAssets contextRef="AsOf20120331" decimals="-3" unitRef="TWD">1161079000</tw-gaap-ci:OtherAssets>
+  <tw-gaap-ci:OtherAssetsOther contextRef="AsOf20110331" decimals="-3" unitRef="TWD">12613000</tw-gaap-ci:OtherAssetsOther>
+  <tw-gaap-ci:OtherAssetsOther contextRef="AsOf20120331" decimals="-3" unitRef="TWD">11964000</tw-gaap-ci:OtherAssetsOther>
+  <tw-gaap-ci:CurrentAssets contextRef="AsOf20110331" decimals="-3" unitRef="TWD">2872714000</tw-gaap-ci:CurrentAssets>
+  <tw-gaap-ci:CurrentAssets contextRef="AsOf20120331" decimals="-3" unitRef="TWD">3490148000</tw-gaap-ci:CurrentAssets>
+  <tw-gaap-ci:OtherCurrentAssets contextRef="AsOf20110331" decimals="-3" unitRef="TWD">51305000</tw-gaap-ci:OtherCurrentAssets>
+  <tw-gaap-ci:OtherCurrentAssets contextRef="AsOf20120331" decimals="-3" unitRef="TWD">46386000</tw-gaap-ci:OtherCurrentAssets>
+  <tw-gaap-ci:FundsInvestments contextRef="AsOf20110331" decimals="-3" unitRef="TWD">5270776000</tw-gaap-ci:FundsInvestments>
+  <tw-gaap-ci:FundsInvestments contextRef="AsOf20120331" decimals="-3" unitRef="TWD">5417569000</tw-gaap-ci:FundsInvestments>
+  <tw-gaap-ci:LongtermInvestments contextRef="AsOf20110331" decimals="-3" unitRef="TWD">5210246000</tw-gaap-ci:LongtermInvestments>
+  <tw-gaap-ci:LongtermInvestments contextRef="AsOf20120331" decimals="-3" unitRef="TWD">5368929000</tw-gaap-ci:LongtermInvestments>
+  <tw-gaap-ci:FixedAssets contextRef="AsOf20110331" decimals="-3" unitRef="TWD">5369910000</tw-gaap-ci:FixedAssets>
+  <tw-gaap-ci:FixedAssets contextRef="AsOf20120331" decimals="-3" unitRef="TWD">6159018000</tw-gaap-ci:FixedAssets>
+  <tw-gaap-ci:CostsRevaluationIncrement contextRef="AsOf20110331" decimals="-3" unitRef="TWD">9969194000</tw-gaap-ci:CostsRevaluationIncrement>
+  <tw-gaap-ci:CostsRevaluationIncrement contextRef="AsOf20120331" decimals="-3" unitRef="TWD">11038998000</tw-gaap-ci:CostsRevaluationIncrement>
+  <tw-gaap-ci:FixedAssetsOriginalCosts contextRef="AsOf20110331" decimals="-3" unitRef="TWD">7173778000</tw-gaap-ci:FixedAssetsOriginalCosts>
+  <tw-gaap-ci:FixedAssetsOriginalCosts contextRef="AsOf20120331" decimals="-3" unitRef="TWD">7339207000</tw-gaap-ci:FixedAssetsOriginalCosts>
+  <tw-gaap-ci:Liabilities contextRef="AsOf20110331" decimals="-3" unitRef="TWD">7376553000</tw-gaap-ci:Liabilities>
+  <tw-gaap-ci:Liabilities contextRef="AsOf20120331" decimals="-3" unitRef="TWD">8309313000</tw-gaap-ci:Liabilities>
+  <tw-gaap-ci:CurrentLiabilities contextRef="AsOf20110331" decimals="-3" unitRef="TWD">2595925000</tw-gaap-ci:CurrentLiabilities>
+  <tw-gaap-ci:CurrentLiabilities contextRef="AsOf20120331" decimals="-3" unitRef="TWD">2155171000</tw-gaap-ci:CurrentLiabilities>
+  <tw-gaap-ci:OtherCurrentLiabilities contextRef="AsOf20110331" decimals="-3" unitRef="TWD">83436000</tw-gaap-ci:OtherCurrentLiabilities>
+  <tw-gaap-ci:OtherCurrentLiabilities contextRef="AsOf20120331" decimals="-3" unitRef="TWD">193786000</tw-gaap-ci:OtherCurrentLiabilities>
+  <tw-gaap-ci:LongTermLiabilities contextRef="AsOf20110331" decimals="-3" unitRef="TWD">2050000000</tw-gaap-ci:LongTermLiabilities>
+  <tw-gaap-ci:LongTermLiabilities contextRef="AsOf20120331" decimals="-3" unitRef="TWD">3070000000</tw-gaap-ci:LongTermLiabilities>
+  <tw-gaap-ci:Reserves contextRef="AsOf20110331" decimals="-3" unitRef="TWD">748907000</tw-gaap-ci:Reserves>
+  <tw-gaap-ci:Reserves contextRef="AsOf20120331" decimals="-3" unitRef="TWD">1007250000</tw-gaap-ci:Reserves>
+  <tw-gaap-ci:OtherLiabilities contextRef="AsOf20110331" decimals="-3" unitRef="TWD">1981721000</tw-gaap-ci:OtherLiabilities>
+  <tw-gaap-ci:OtherLiabilities contextRef="AsOf20120331" decimals="-3" unitRef="TWD">2076892000</tw-gaap-ci:OtherLiabilities>
+  <tw-gaap-ci:OtherLiabilitiesOther contextRef="AsOf20110331" decimals="-3" unitRef="TWD">584143000</tw-gaap-ci:OtherLiabilitiesOther>
+  <tw-gaap-ci:OtherLiabilitiesOther contextRef="AsOf20120331" decimals="-3" unitRef="TWD">607680000</tw-gaap-ci:OtherLiabilitiesOther>
+  <tw-gaap-ci:StockholdersEquities contextRef="AsOf20110331" decimals="-3" unitRef="TWD">6833023000</tw-gaap-ci:StockholdersEquities>
+  <tw-gaap-ci:StockholdersEquities contextRef="AsOf20120331" decimals="-3" unitRef="TWD">7918501000</tw-gaap-ci:StockholdersEquities>
+  <tw-gaap-ci:CapitalSurplus contextRef="AsOf20110331" decimals="-3" unitRef="TWD">37921000</tw-gaap-ci:CapitalSurplus>
+  <tw-gaap-ci:CapitalSurplus contextRef="AsOf20120331" decimals="-3" unitRef="TWD">37921000</tw-gaap-ci:CapitalSurplus>
+  <tw-gaap-ci:RetainedEarnings contextRef="AsOf20110331" decimals="-3" unitRef="TWD">2358565000</tw-gaap-ci:RetainedEarnings>
+  <tw-gaap-ci:RetainedEarnings contextRef="AsOf20120331" decimals="-3" unitRef="TWD">2766130000</tw-gaap-ci:RetainedEarnings>
+  <tw-gaap-ci:StockholdersEquitiesAdjustments contextRef="AsOf20110331" decimals="-3" unitRef="TWD">-624092000</tw-gaap-ci:StockholdersEquitiesAdjustments>
+  <tw-gaap-ci:StockholdersEquitiesAdjustments contextRef="AsOf20120331" decimals="-3" unitRef="TWD">53821000</tw-gaap-ci:StockholdersEquitiesAdjustments>
+  <tw-gaap-ci:Capital contextRef="AsOf20110331" decimals="-3" unitRef="TWD">5060629000</tw-gaap-ci:Capital>
+  <tw-gaap-ci:Capital contextRef="AsOf20120331" decimals="-3" unitRef="TWD">5060629000</tw-gaap-ci:Capital>
+  <tw-gaap-ci:Sales contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">3163952000</tw-gaap-ci:Sales>
+  <tw-gaap-ci:Sales contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">3439118000</tw-gaap-ci:Sales>
+  <tw-gaap-ci:SalesReturns contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">46123000</tw-gaap-ci:SalesReturns>
+  <tw-gaap-ci:SalesReturns contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">39611000</tw-gaap-ci:SalesReturns>
+  <tw-gaap-ci:SalesDiscountsAllowances contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">15859000</tw-gaap-ci:SalesDiscountsAllowances>
+  <tw-gaap-ci:SalesDiscountsAllowances contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">17352000</tw-gaap-ci:SalesDiscountsAllowances>
+  <tw-gaap-ci:CostSales contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">1952775000</tw-gaap-ci:CostSales>
+  <tw-gaap-ci:CostSales contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">2100344000</tw-gaap-ci:CostSales>
+  <tw-gaap-ci:Sellingexpense contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">810042000</tw-gaap-ci:Sellingexpense>
+  <tw-gaap-ci:Sellingexpense contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">888516000</tw-gaap-ci:Sellingexpense>
+  <tw-gaap-ci:GeneralAdministrativeExpenses contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">65667000</tw-gaap-ci:GeneralAdministrativeExpenses>
+  <tw-gaap-ci:GeneralAdministrativeExpenses contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">80428000</tw-gaap-ci:GeneralAdministrativeExpenses>
+  <tw-gaap-ci:ResearchDevelopmentExpenses contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">31939000</tw-gaap-ci:ResearchDevelopmentExpenses>
+  <tw-gaap-ci:ResearchDevelopmentExpenses contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">32973000</tw-gaap-ci:ResearchDevelopmentExpenses>
+  <tw-gaap-ci:InterestIncome contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">42000</tw-gaap-ci:InterestIncome>
+  <tw-gaap-ci:InterestIncome contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">6180000</tw-gaap-ci:InterestIncome>
+  <tw-gaap-ci:InvestmentGainsRecognizedEquityMethod contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:InvestmentGainsRecognizedEquityMethod>
+  <tw-gaap-ci:InvestmentGainsRecognizedEquityMethod contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">7305000</tw-gaap-ci:InvestmentGainsRecognizedEquityMethod>
+  <tw-gaap-ci:GainsDisposalFixedAssets contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">48000</tw-gaap-ci:GainsDisposalFixedAssets>
+  <tw-gaap-ci:GainsDisposalFixedAssets contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">1427000</tw-gaap-ci:GainsDisposalFixedAssets>
+  <tw-gaap-ci:ForeignExchangeGains contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">606000</tw-gaap-ci:ForeignExchangeGains>
+  <tw-gaap-ci:ForeignExchangeGains contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:ForeignExchangeGains>
+  <tw-gaap-ci:RentIncome contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">7804000</tw-gaap-ci:RentIncome>
+  <tw-gaap-ci:RentIncome contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">4469000</tw-gaap-ci:RentIncome>
+  <tw-gaap-ci:ReversalAllowanceDoubtfulReceivable contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">568000</tw-gaap-ci:ReversalAllowanceDoubtfulReceivable>
+  <tw-gaap-ci:ReversalAllowanceDoubtfulReceivable contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:ReversalAllowanceDoubtfulReceivable>
+  <tw-gaap-ci:MiscellaneousIncome contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">29487000</tw-gaap-ci:MiscellaneousIncome>
+  <tw-gaap-ci:MiscellaneousIncome contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">36832000</tw-gaap-ci:MiscellaneousIncome>
+  <tw-gaap-ci:InterestExpense contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">7309000</tw-gaap-ci:InterestExpense>
+  <tw-gaap-ci:InterestExpense contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">11254000</tw-gaap-ci:InterestExpense>
+  <tw-gaap-ci:NonOperatingExpensesInvestmentLossRecognizedEquityMethod contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">24282000</tw-gaap-ci:NonOperatingExpensesInvestmentLossRecognizedEquityMethod>
+  <tw-gaap-ci:NonOperatingExpensesInvestmentLossRecognizedEquityMethod contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:NonOperatingExpensesInvestmentLossRecognizedEquityMethod>
+  <tw-gaap-ci:ForeignExchangeLosses contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:ForeignExchangeLosses>
+  <tw-gaap-ci:ForeignExchangeLosses contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">3383000</tw-gaap-ci:ForeignExchangeLosses>
+  <tw-gaap-ci:MiscellaneousDisbursements contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">20220000</tw-gaap-ci:MiscellaneousDisbursements>
+  <tw-gaap-ci:MiscellaneousDisbursements contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">24356000</tw-gaap-ci:MiscellaneousDisbursements>
+  <tw-gaap-ci:IncomeTaxExpenseBenefit contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">8292000</tw-gaap-ci:IncomeTaxExpenseBenefit>
+  <tw-gaap-ci:IncomeTaxExpenseBenefit contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">51180000</tw-gaap-ci:IncomeTaxExpenseBenefit>
+  <tw-gaap-ci:PrimaryEarningsPerShareIncomeLossContinuingOperations contextRef="From20110101To20110331" decimals="2" unitRef="TWD">0.43</tw-gaap-ci:PrimaryEarningsPerShareIncomeLossContinuingOperations>
+  <tw-gaap-ci:PrimaryEarningsPerShareIncomeLossContinuingOperations contextRef="From20120101To20120331" decimals="2" unitRef="TWD">0.49</tw-gaap-ci:PrimaryEarningsPerShareIncomeLossContinuingOperations>
+  <tw-gaap-ci:PrimaryEarningsPerShare contextRef="From20110101To20110331" decimals="2" unitRef="TWD">0.43</tw-gaap-ci:PrimaryEarningsPerShare>
+  <tw-gaap-ci:PrimaryEarningsPerShare contextRef="From20120101To20120331" decimals="2" unitRef="TWD">0.49</tw-gaap-ci:PrimaryEarningsPerShare>
+  <tw-gaap-ci:NetIncomeLoss contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">219999000</tw-gaap-ci:NetIncomeLoss>
+  <tw-gaap-ci:NetIncomeLoss contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">245934000</tw-gaap-ci:NetIncomeLoss>
+  <tw-gaap-ci:IncomeContinuingOperations contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">219999000</tw-gaap-ci:IncomeContinuingOperations>
+  <tw-gaap-ci:IncomeContinuingOperations contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">245934000</tw-gaap-ci:IncomeContinuingOperations>
+  <tw-gaap-ci:IncomeContinuingOperationsBeforeIncomeTax contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">228291000</tw-gaap-ci:IncomeContinuingOperationsBeforeIncomeTax>
+  <tw-gaap-ci:IncomeContinuingOperationsBeforeIncomeTax contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">297114000</tw-gaap-ci:IncomeContinuingOperationsBeforeIncomeTax>
+  <tw-gaap-ci:OperatingIncomeLoss contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">241547000</tw-gaap-ci:OperatingIncomeLoss>
+  <tw-gaap-ci:OperatingIncomeLoss contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">279894000</tw-gaap-ci:OperatingIncomeLoss>
+  <tw-gaap-ci:GrossProfitLossOperations contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">1149195000</tw-gaap-ci:GrossProfitLossOperations>
+  <tw-gaap-ci:GrossProfitLossOperations contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">1281811000</tw-gaap-ci:GrossProfitLossOperations>
+  <tw-gaap-ci:OperatingCosts contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">1952775000</tw-gaap-ci:OperatingCosts>
+  <tw-gaap-ci:OperatingCosts contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">2100344000</tw-gaap-ci:OperatingCosts>
+  <tw-gaap-ci:OperatingRevenue contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">3101970000</tw-gaap-ci:OperatingRevenue>
+  <tw-gaap-ci:OperatingRevenue contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">3382155000</tw-gaap-ci:OperatingRevenue>
+  <tw-gaap-ci:NetSales contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">3101970000</tw-gaap-ci:NetSales>
+  <tw-gaap-ci:NetSales contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">3382155000</tw-gaap-ci:NetSales>
+  <tw-gaap-ci:OperatingExpenses contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">907648000</tw-gaap-ci:OperatingExpenses>
+  <tw-gaap-ci:OperatingExpenses contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">1001917000</tw-gaap-ci:OperatingExpenses>
+  <tw-gaap-ci:NonOperatingIncomeGains contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">38555000</tw-gaap-ci:NonOperatingIncomeGains>
+  <tw-gaap-ci:NonOperatingIncomeGains contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">56213000</tw-gaap-ci:NonOperatingIncomeGains>
+  <tw-gaap-ci:InvestmentGains contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:InvestmentGains>
+  <tw-gaap-ci:InvestmentGains contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">7305000</tw-gaap-ci:InvestmentGains>
+  <tw-gaap-ci:NonOperatingExpenses contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">51811000</tw-gaap-ci:NonOperatingExpenses>
+  <tw-gaap-ci:NonOperatingExpenses contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">38993000</tw-gaap-ci:NonOperatingExpenses>
+  <tw-gaap-ci:NonOperatingExpensesInvestmentLoss contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">24282000</tw-gaap-ci:NonOperatingExpensesInvestmentLoss>
+  <tw-gaap-ci:NonOperatingExpensesInvestmentLoss contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:NonOperatingExpensesInvestmentLoss>
+  <tw-gaap-ci:AcquisitionInvestmentsAccountedEquityMethod contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-169923000</tw-gaap-ci:AcquisitionInvestmentsAccountedEquityMethod>
+  <tw-gaap-ci:AcquisitionInvestmentsAccountedEquityMethod contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:AcquisitionInvestmentsAccountedEquityMethod>
+  <tw-gaap-ci:AcquisitionPropertyPlantEquipment contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-178824000</tw-gaap-ci:AcquisitionPropertyPlantEquipment>
+  <tw-gaap-ci:AcquisitionPropertyPlantEquipment contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-104422000</tw-gaap-ci:AcquisitionPropertyPlantEquipment>
+  <tw-gaap-ci:CashCashEquivalents contextRef="AsOf20110101" decimals="-3" unitRef="TWD">320548000</tw-gaap-ci:CashCashEquivalents>
+  <tw-gaap-ci:CashCashEquivalents contextRef="AsOf20120101" decimals="-3" unitRef="TWD">483312000</tw-gaap-ci:CashCashEquivalents>
+  <tw-gaap-ci:CashPaidAcquisitionPropertyPlantEquipment contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">178824000</tw-gaap-ci:CashPaidAcquisitionPropertyPlantEquipment>
+  <tw-gaap-ci:CashPaidAcquisitionPropertyPlantEquipment contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">104422000</tw-gaap-ci:CashPaidAcquisitionPropertyPlantEquipment>
+  <tw-gaap-ci:ChangesAccountsPayable contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-55525000</tw-gaap-ci:ChangesAccountsPayable>
+  <tw-gaap-ci:ChangesAccountsPayable contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-73759000</tw-gaap-ci:ChangesAccountsPayable>
+  <tw-gaap-ci:ChangesAccountsPayableRelatedParties contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">80506000</tw-gaap-ci:ChangesAccountsPayableRelatedParties>
+  <tw-gaap-ci:ChangesAccountsPayableRelatedParties contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">20078000</tw-gaap-ci:ChangesAccountsPayableRelatedParties>
+  <tw-gaap-ci:ChangesAccountsReceivable contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-47726000</tw-gaap-ci:ChangesAccountsReceivable>
+  <tw-gaap-ci:ChangesAccountsReceivable contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-145754000</tw-gaap-ci:ChangesAccountsReceivable>
+  <tw-gaap-ci:ChangesAccountsReceivableRelatedParties contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-2385000</tw-gaap-ci:ChangesAccountsReceivableRelatedParties>
+  <tw-gaap-ci:ChangesAccountsReceivableRelatedParties contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-10282000</tw-gaap-ci:ChangesAccountsReceivableRelatedParties>
+  <tw-gaap-ci:ChangesAccruedExpenses contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-189926000</tw-gaap-ci:ChangesAccruedExpenses>
+  <tw-gaap-ci:ChangesAccruedExpenses contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-43477000</tw-gaap-ci:ChangesAccruedExpenses>
+  <tw-gaap-ci:ChangesAccruedPensionLiabilities contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">10657000</tw-gaap-ci:ChangesAccruedPensionLiabilities>
+  <tw-gaap-ci:ChangesAccruedPensionLiabilities contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">1719000</tw-gaap-ci:ChangesAccruedPensionLiabilities>
+  <tw-gaap-ci:ChangesDeferredTaxAssets contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-7729000</tw-gaap-ci:ChangesDeferredTaxAssets>
+  <tw-gaap-ci:ChangesDeferredTaxAssets contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-668000</tw-gaap-ci:ChangesDeferredTaxAssets>
+  <tw-gaap-ci:ChangesGuaranteeDepositsReceived contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-1504000</tw-gaap-ci:ChangesGuaranteeDepositsReceived>
+  <tw-gaap-ci:ChangesGuaranteeDepositsReceived contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-873000</tw-gaap-ci:ChangesGuaranteeDepositsReceived>
+  <tw-gaap-ci:ChangeShorttermNotesBillsPayable contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-100000000</tw-gaap-ci:ChangeShorttermNotesBillsPayable>
+  <tw-gaap-ci:ChangeShorttermNotesBillsPayable contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:ChangeShorttermNotesBillsPayable>
+  <tw-gaap-ci:ChangesIncomeTaxPayable contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">15614000</tw-gaap-ci:ChangesIncomeTaxPayable>
+  <tw-gaap-ci:ChangesIncomeTaxPayable contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">51692000</tw-gaap-ci:ChangesIncomeTaxPayable>
+  <tw-gaap-ci:ChangesInventories contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-115203000</tw-gaap-ci:ChangesInventories>
+  <tw-gaap-ci:ChangesInventories contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-2258000</tw-gaap-ci:ChangesInventories>
+  <tw-gaap-ci:ChangesNotesPayable contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-3101000</tw-gaap-ci:ChangesNotesPayable>
+  <tw-gaap-ci:ChangesNotesPayable contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">1130000</tw-gaap-ci:ChangesNotesPayable>
+  <tw-gaap-ci:ChangesNotesReceivable contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">8627000</tw-gaap-ci:ChangesNotesReceivable>
+  <tw-gaap-ci:ChangesNotesReceivable contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">10206000</tw-gaap-ci:ChangesNotesReceivable>
+  <tw-gaap-ci:ChangesOtherCurrentAssets_CI contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-17829000</tw-gaap-ci:ChangesOtherCurrentAssets_CI>
+  <tw-gaap-ci:ChangesOtherCurrentAssets_CI contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-15941000</tw-gaap-ci:ChangesOtherCurrentAssets_CI>
+  <tw-gaap-ci:ChangesOtherCurrentLiabilities_CI contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-7089000</tw-gaap-ci:ChangesOtherCurrentLiabilities_CI>
+  <tw-gaap-ci:ChangesOtherCurrentLiabilities_CI contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-4305000</tw-gaap-ci:ChangesOtherCurrentLiabilities_CI>
+  <tw-gaap-ci:ChangesOtherOperatingAssets contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-6170000</tw-gaap-ci:ChangesOtherOperatingAssets>
+  <tw-gaap-ci:ChangesOtherOperatingAssets contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-5272000</tw-gaap-ci:ChangesOtherOperatingAssets>
+  <tw-gaap-ci:ChangesOtherReceivables contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-5029000</tw-gaap-ci:ChangesOtherReceivables>
+  <tw-gaap-ci:ChangesOtherReceivables contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-48231000</tw-gaap-ci:ChangesOtherReceivables>
+  <tw-gaap-ci:ChangesPayableEquipmentPurchased contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">51340000</tw-gaap-ci:ChangesPayableEquipmentPurchased>
+  <tw-gaap-ci:ChangesPayableEquipmentPurchased contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-80374000</tw-gaap-ci:ChangesPayableEquipmentPurchased>
+  <tw-gaap-ci:ChangesRefundableDeposits contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-873000</tw-gaap-ci:ChangesRefundableDeposits>
+  <tw-gaap-ci:ChangesRefundableDeposits contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-971000</tw-gaap-ci:ChangesRefundableDeposits>
+  <tw-gaap-ci:ChangesShortTermLoans contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">598572000</tw-gaap-ci:ChangesShortTermLoans>
+  <tw-gaap-ci:ChangesShortTermLoans contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-44970000</tw-gaap-ci:ChangesShortTermLoans>
+  <tw-gaap-ci:DepreciationExpense-Operating contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">91191000</tw-gaap-ci:DepreciationExpense-Operating>
+  <tw-gaap-ci:DepreciationExpense-Operating contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">89871000</tw-gaap-ci:DepreciationExpense-Operating>
+  <tw-gaap-ci:GainLossDisposalScrappingFixedAssets contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-48000</tw-gaap-ci:GainLossDisposalScrappingFixedAssets>
+  <tw-gaap-ci:GainLossDisposalScrappingFixedAssets contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-1427000</tw-gaap-ci:GainLossDisposalScrappingFixedAssets>
+  <tw-gaap-ci:GainLossInventoryValuationObsolescenceRecoverie contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">2589000</tw-gaap-ci:GainLossInventoryValuationObsolescenceRecoverie>
+  <tw-gaap-ci:GainLossInventoryValuationObsolescenceRecoverie contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">3805000</tw-gaap-ci:GainLossInventoryValuationObsolescenceRecoverie>
+  <tw-gaap-ci:IncomeTaxPaid contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">405000</tw-gaap-ci:IncomeTaxPaid>
+  <tw-gaap-ci:IncomeTaxPaid contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">40000</tw-gaap-ci:IncomeTaxPaid>
+  <tw-gaap-ci:IncreasePropertyPlantEquipment contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">127484000</tw-gaap-ci:IncreasePropertyPlantEquipment>
+  <tw-gaap-ci:IncreasePropertyPlantEquipment contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">184796000</tw-gaap-ci:IncreasePropertyPlantEquipment>
+  <tw-gaap-ci:InterestPaid contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">7546000</tw-gaap-ci:InterestPaid>
+  <tw-gaap-ci:InterestPaid contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">11628000</tw-gaap-ci:InterestPaid>
+  <tw-gaap-ci:InvestmentLossIncomeRecognizedEquityMethod contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">24282000</tw-gaap-ci:InvestmentLossIncomeRecognizedEquityMethod>
+  <tw-gaap-ci:InvestmentLossIncomeRecognizedEquityMethod contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-7305000</tw-gaap-ci:InvestmentLossIncomeRecognizedEquityMethod>
+  <tw-gaap-ci:NetChangesCashCashEquivalents contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-57312000</tw-gaap-ci:NetChangesCashCashEquivalents>
+  <tw-gaap-ci:NetChangesCashCashEquivalents contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">28107000</tw-gaap-ci:NetChangesCashCashEquivalents>
+  <tw-gaap-ci:NetIncomeLoss_StatementCashFlows contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">219999000</tw-gaap-ci:NetIncomeLoss_StatementCashFlows>
+  <tw-gaap-ci:NetIncomeLoss_StatementCashFlows contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">245934000</tw-gaap-ci:NetIncomeLoss_StatementCashFlows>
+  <tw-gaap-ci:OtherFinancingActivities contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:OtherFinancingActivities>
+  <tw-gaap-ci:OtherFinancingActivities contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">11148000</tw-gaap-ci:OtherFinancingActivities>
+  <tw-gaap-ci:ProceedsDisposalPropertyPlantEquipment contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">103000</tw-gaap-ci:ProceedsDisposalPropertyPlantEquipment>
+  <tw-gaap-ci:ProceedsDisposalPropertyPlantEquipment contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">1427000</tw-gaap-ci:ProceedsDisposalPropertyPlantEquipment>
+  <tw-gaap-ci:ProceedsLongTermDebt contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">0</tw-gaap-ci:ProceedsLongTermDebt>
+  <tw-gaap-ci:ProceedsLongTermDebt contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">1300000000</tw-gaap-ci:ProceedsLongTermDebt>
+  <tw-gaap-ci:ProvisionTransferRevenueBadDebtsLosses contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-568000</tw-gaap-ci:ProvisionTransferRevenueBadDebtsLosses>
+  <tw-gaap-ci:ProvisionTransferRevenueBadDebtsLosses contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">1012000</tw-gaap-ci:ProvisionTransferRevenueBadDebtsLosses>
+  <tw-gaap-ci:RepaymentLongTermDebt contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-200000000</tw-gaap-ci:RepaymentLongTermDebt>
+  <tw-gaap-ci:RepaymentLongTermDebt contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-1200000000</tw-gaap-ci:RepaymentLongTermDebt>
+  <tw-gaap-ci:NetCashProvidedUsedOperatingActivities contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-4863000</tw-gaap-ci:NetCashProvidedUsedOperatingActivities>
+  <tw-gaap-ci:NetCashProvidedUsedOperatingActivities contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">66768000</tw-gaap-ci:NetCashProvidedUsedOperatingActivities>
+  <tw-gaap-ci:AdjustmentsReconcileNetIncomeNetCashProvidedUsedOperatingActivities contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">117446000</tw-gaap-ci:AdjustmentsReconcileNetIncomeNetCashProvidedUsedOperatingActivities>
+  <tw-gaap-ci:AdjustmentsReconcileNetIncomeNetCashProvidedUsedOperatingActivities contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">85956000</tw-gaap-ci:AdjustmentsReconcileNetIncomeNetCashProvidedUsedOperatingActivities>
+  <tw-gaap-ci:ChangesOperatingAssetsLiabilities contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-342308000</tw-gaap-ci:ChangesOperatingAssetsLiabilities>
+  <tw-gaap-ci:ChangesOperatingAssetsLiabilities contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-265122000</tw-gaap-ci:ChangesOperatingAssetsLiabilities>
+  <tw-gaap-ci:ChangesOperatingAssets contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-193444000</tw-gaap-ci:ChangesOperatingAssets>
+  <tw-gaap-ci:ChangesOperatingAssets contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-218200000</tw-gaap-ci:ChangesOperatingAssets>
+  <tw-gaap-ci:ChangesOperatingLiabilities contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-148864000</tw-gaap-ci:ChangesOperatingLiabilities>
+  <tw-gaap-ci:ChangesOperatingLiabilities contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-46922000</tw-gaap-ci:ChangesOperatingLiabilities>
+  <tw-gaap-ci:NetCashProvidedUsedInvestingActivities contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">-349517000</tw-gaap-ci:NetCashProvidedUsedInvestingActivities>
+  <tw-gaap-ci:NetCashProvidedUsedInvestingActivities contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">-103966000</tw-gaap-ci:NetCashProvidedUsedInvestingActivities>
+  <tw-gaap-ci:NetCashProvidedUsedFinancingActivities contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">297068000</tw-gaap-ci:NetCashProvidedUsedFinancingActivities>
+  <tw-gaap-ci:NetCashProvidedUsedFinancingActivities contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">65305000</tw-gaap-ci:NetCashProvidedUsedFinancingActivities>
+  <tw-gaap-ci:InterestPaidExcludingCapitalizedInterest contextRef="From20110101To20110331" decimals="-3" unitRef="TWD">7546000</tw-gaap-ci:InterestPaidExcludingCapitalizedInterest>
+  <tw-gaap-ci:InterestPaidExcludingCapitalizedInterest contextRef="From20120101To20120331" decimals="-3" unitRef="TWD">11628000</tw-gaap-ci:InterestPaidExcludingCapitalizedInterest>
+  <tw-gaap-ar:AccountantName contextRef="AsOf20120430">資誠聯合會計師事務所</tw-gaap-ar:AccountantName>
+  <tw-gaap-ar:AssuranceAccountantName1 contextRef="AsOf20120430">吳郁隆</tw-gaap-ar:AssuranceAccountantName1>
+  <tw-gaap-ar:AssuranceAccountantName2 contextRef="AsOf20120430">王照明</tw-gaap-ar:AssuranceAccountantName2>
+  <tw-gaap-ar:ReviewAuditDate contextRef="AsOf20120430">2012-04-30</tw-gaap-ar:ReviewAuditDate>
+  <tw-gaap-ar:ReviewReport contextRef="AsOf20120430">Y</tw-gaap-ar:ReviewReport>
+  <tw-gaap-ar:QualifiedOpinionAbstract contextRef="AsOf20120430">Y</tw-gaap-ar:QualifiedOpinionAbstract>
+  <tw-gaap-ar:ByInvestmentCompaniesWithoutAccountantAuditReportRecognizedGainLoss contextRef="AsOf20120430">Y</tw-gaap-ar:ByInvestmentCompaniesWithoutAccountantAuditReportRecognizedGainLoss>
+  <tw-gaap-ar:DescriptionEmphasizeItemBody contextRef="AsOf20120430"><![CDATA[]]></tw-gaap-ar:DescriptionEmphasizeItemBody>
+  <tw-gaap-ar:DescriptionOtherItemBody contextRef="AsOf20120430"><![CDATA[]]></tw-gaap-ar:DescriptionOtherItemBody>
+  <tw-gaap-ar:AccountantsReportBody contextRef="AsOf20120430"><![CDATA[味全食品工業股份有限公司  公鑒： 
+    味全食品工業股份有限公司民國101年及100年3月31日之資產負債表，暨民國101年 
+及100年1月1日至3月31日之損益表及現金流量表，業經本會計師核閱竣事。上開財務報 
+表之編製係管理階層之責任，本會計師之責任則為根據核閱結果出具報告。 
+    除下段所述者外，本會計師係依照中華民國審計準則公報第三十六號「財務報表之 
+核閱」規劃並執行核閱工作。由於本會計師僅實施分析、比較與查詢，並未依照中華民 
+國一般公認審計準則查核，故無法對上開財務報表之整體表示查核意見。 
+    如財務報表附註四(六)所述，  貴公司民國101年及100年3月31日採權益法評價之長 
+期股權投資及附註十一所揭露有關被投資公司相關資訊，部分係依各被投資公司同期間 
+自編未經會計師核閱之財務報表作評價及揭露；民國101年及100年1月1日至3月31日依據 
+被投資公司自編未經會計師核閱之財務報表所認列之投資利益及損失分別為新台幣8,770 
+仟元及新台幣24,282仟元，截至民國101年及100年3月31日止，其相關之長期股權投資餘 
+額(含表列其他負債-其他之長期股權投資承諾負債)分別為新台幣3,095,988仟元及新台 
+幣4,933,797仟元。 
+    依本會計師核閱結果，除第三段所述採權益法評價之長期股權投資及附註十一所揭 
+露之被投資公司相關資訊，若能取得各被投資公司同期間經會計師核閱之財務報表而可 
+能須作適當調整之影響外，並未發現第一段所述財務報表在所有重大方面有違反「證券 
+發行人財務報告編製準則」及中華民國一般公認會計原則，而須作重大修正之情事。 
+     
+    味全食品工業股份有限公司已編製民國100年度第一季之合併財務報表，並經本會計 
+師出具保留式核閱報告在案，備供參考。民國101年度第一季之合併財務報表現正編製中 
+，本會計師尚未核閱。 
+     
+                                      
+                                      
+                                      
+                                     資  誠  聯  合  會  計  師  事  務  所 
+                                      
+                                               吳郁隆 
+                                     會計師           
+                                               王照明 
+                                      
+                                     前財政部證券暨期貨管理委員會 
+                                     核准簽證文號：(86)台財證(六)第83252號 
+                                     前財政部證券管理委員會 
+                                     核准簽證文號：(85)台財證(六)第65945號 
+                                      
+                                     中華民國101年4月30日]]></tw-gaap-ar:AccountantsReportBody>
+  <tw-gaap-notes:FinancialReportNotes contextRef="From20120101To20120331"><![CDATA[http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=1201&year=101&seamon=1&mtype=A&]]></tw-gaap-notes:FinancialReportNotes>
+  <tw-gaap-notes:OrganizationAndOperations contextRef="From20120101To20120331"><![CDATA[　　味全食品工業股份有限公司係依公司法規定，於民國42年9月22日奉准設立。主要業務為
+　　經營味精、醬油、罐頭、奶粉、乳品、飲料、生技食品、速食麵、麵包等產品之製造及販
+　　賣，並從事農、牧場、遊樂園、超級市場、複合式麵包店之經營、自營或代理有關之進出
+　　口業務等，本公司股票自民國51年 2月起在台灣證券交易所買賣。本公司有台中、斗六、
+　　高雄及龍潭等工廠，並在台南林鳳營及桃園埔心設有兩個牧場；此外在全台各地設有四十
+　　餘個營業所及15家布列德麵包店。英屬開曼島商頂益控股有限公司台灣分公司持有本公司
+　　11.61%股權。截至民國101年3月31日止，本公司員工人數約為2,428人。
+]]></tw-gaap-notes:OrganizationAndOperations>
+  <tw-gaap-notes:StatementOfFinancialStatementsPreparedInAccordanceWithRelatedRegulationsAndGenerallyAcceptedAccountingPrinciples contextRef="From20120101To20120331"><![CDATA[　　本財務報表係依照「證券發行人財務報告編製準則」及中華民國一般公認會計原則編製。
+　　重要會計政策彙總說明如下：
+
+]]></tw-gaap-notes:StatementOfFinancialStatementsPreparedInAccordanceWithRelatedRegulationsAndGenerallyAcceptedAccountingPrinciples>
+  <tw-gaap-notes:ForeignCurrencyTransactionsAndTranslationOfForeignCurrencyFinancialStatements contextRef="From20120101To20120331"><![CDATA[　　　　1.外幣交易按交易當日之即期匯率作為入帳基準，其與實際收付時之兌換差異，列為當
+　　　　　年度損益。
+　　　　2.期末並就外幣貨幣性資產及負債餘額，按資產負債表日之即期匯率評價調整，因調整
+　　　　　而產生之兌換差額列為當年度損益。
+　　　　3.期末就外幣非貨幣性資產或負債餘額，屬依公平價值衡量且變動列入損益者，按資產
+　　　　　負債表日之即期匯率評價調整，因調整而產生之兌換差額列為當年度損益；屬依公平
+　　　　　價值衡量且變動列入股東權益調整項目者，按資產負債表日之即期匯率評價調整，因
+　　　　　調整而產生之兌換差額，列為股東權益調整項目；屬非依公平價值衡量者，則按交易
+　　　　　日之歷史匯率衡量。
+
+]]></tw-gaap-notes:ForeignCurrencyTransactionsAndTranslationOfForeignCurrencyFinancialStatements>
+  <tw-gaap-notes:UseOfEstimates contextRef="From20120101To20120331"><![CDATA[　　　　　本公司於編製財務報表時，業已依照中華民國一般公認會計準則之規定，對財務報表
+　　　　　所列金額及或有事項，作必要之衡量、評估與揭露，其中包括若干假設及估計之採用
+　　　　　，惟該等假設及估計與實際結果可能存有差異。
+
+]]></tw-gaap-notes:UseOfEstimates>
+  <tw-gaap-notes:ClassificationOfCurrentAndNoncurrentAssetsAndLiabilities contextRef="From20120101To20120331"><![CDATA[　　　　1.資產符合下列條件之一者，列為流動資產；資產不屬於流動資產者為非流動資產： 
+　　　　　(1)因營業所產生之資產，預期將於正常營業週期中變現、消耗，或意圖出售者。
+　　　　　(2)主要為交易目的而持有者。
+　　　　　(3)預期於資產負債表日後十二個月內將變現者。
+　　　　　(4)現金或約當現金，但於資產負債表日後逾十二個月用以交換、清償負債或受有其他
+　　　　　　　限制者除外。
+　　　　2.負債符合下列條件之一者，列為流動負債；負債不屬於流動負債者為非流動負債：
+　　　　　(1)因營業而發生之債務，預期將於正常營業週期中清償者。
+　　　　　(2)主要為交易目的而發生者。
+　　　　　(3)須於資產負債表日後十二個月內清償者。
+　　　　　(4)不能無條件延期至資產負債表日後逾十二個月清償之負債。
+
+]]></tw-gaap-notes:ClassificationOfCurrentAndNoncurrentAssetsAndLiabilities>
+  <tw-gaap-notes:CashAndCashEquivalents contextRef="From20120101To20120331"><![CDATA[　　　　約當現金係指同時具備下列條件之短期且具高度流動性之投資：
+　　　　1.隨時可轉換成定額現金者。
+　　　　2.即將到期且利率變動對其價值之影響甚少者。
+　　　　本公司現金流量表係以現金及約當現金之基礎所編製。
+
+]]></tw-gaap-notes:CashAndCashEquivalents>
+  <tw-gaap-notes:AvailableForSaleFinancialAssets contextRef="From20120101To20120331"><![CDATA[　　　　1.屬權益性質之投資係採交易日會計；屬債務性質之投資係採交割日會計，於原始認列
+　　　　　時，將金融商品以公平價值衡量，並加計取得之交易成本。
+　　　　2.備供出售金融資產係以公平價值評價，且其價值變動列為股東權益調整項目，累積之
+　　　　　利益或損失於金融資產除列時，列入當期損益。上市/上櫃股票、封閉型基金及存託憑
+　　　　　證係以資產負債表日公開市場之收盤價為公平價值。開放型基金係以資產負債表日該
+　　　　　基金淨資產價值為公平價值。
+　　　　3.若有減損之客觀證據，則認列減損損失。若後續期間減損金額減少，屬權益商品之減
+　　　　　損減少金額，認列為股東權益調整項目；屬債務商品之減損減少金額，若明顯與認列
+　　　　　減損後發生之事件有關，則予以迴轉並認列為當期損益。
+
+]]></tw-gaap-notes:AvailableForSaleFinancialAssets>
+  <tw-gaap-notes:FinancialAssetsMeasuredAtCost contextRef="From20120101To20120331"><![CDATA[　　　　1.係採交易日會計，於原始認列時，將金融商品以公平價值衡量，並加計取得或發行之
+　　　　　交易成本。
+　　　　2.以成本衡量之金融資產若有減損之客觀證據，則認列減損損失，此減損金額不予迴轉
+　　　　　。
+
+]]></tw-gaap-notes:FinancialAssetsMeasuredAtCost>
+  <tw-gaap-notes:NotesAndAccountsReceivableOtherReceivable contextRef="From20120101To20120331"><![CDATA[　　　　1.應收票據及帳款係因出售商品或勞務而發生之債權，其他應收款係不屬於應收票據及
+　　　　　帳款之其他應收款項。應收票據及帳款、其他應收款原始認列時以公平價值衡量，續
+　　　　　後以有效利率法之攤銷後成本減除減損後之金額衡量。
+　　　　2.本公司於資產負債表日評估是否存在客觀證據，顯示重大個別金融資產發生減損，以
+　　　　　及非屬重大之個別金融資產單獨或共同發生減損。若有減損之客觀證據，則認列減損
+　　　　　損失。減損金額為金融資產之帳面價值與其估計未來現金流量採原始有效利率折現之
+　　　　　現值間之差額。若後續期間減損金額減少，而該減少明顯與認列減損後發生之事件有
+　　　　　關，則迴轉先前認列之金融資產減損金額，該迴轉不應使金融資產帳面金額大於未認
+　　　　　列減損情況下之攤銷後成本，迴轉之金額認列於當期損益。
+
+]]></tw-gaap-notes:NotesAndAccountsReceivableOtherReceivable>
+  <tw-gaap-notes:ImpairmentOfNonFinancialAsset contextRef="From20120101To20120331"><![CDATA[　　　　　本公司於資產負債表日針對有減損跡象之資產，估計其可回收金額，當可回收金額低
+　　　　　於其帳面價值時，則認列減損損失。可回收金額係指一項資產之淨公平價值或其使用
+　　　　　價值，兩者較高者。當以前年度認列資產減損之情況不再存在時，則在以前年度提列
+　　　　　損失金額之範圍內予以迴轉。
+
+]]></tw-gaap-notes:ImpairmentOfNonFinancialAsset>
+  <tw-gaap-notes:Inventories contextRef="From20120101To20120331"><![CDATA[　　　　存貨採永續盤存制，以取得成本入帳，成本結轉按加權平均法計算，固定製造費用按生
+　　　　產設備之正常產能分攤，正常產能係於考量既定之維修情況下，預期未來各期間可達到
+　　　　之平均產能。若實際產量與正常產能差異不大，亦得按實際產能分攤。期末存貨採成本
+　　　　與淨變現價值孰低衡量，比較成本與淨變現價值孰低時，係採逐項比較法。淨變現價值
+　　　　係指在正常情況下之估計售價減除至完工尚需投入之成本及推銷費用後之餘額。
+
+]]></tw-gaap-notes:Inventories>
+  <tw-gaap-notes:LongTermInvestmentsUnderEquityMethod contextRef="From20120101To20120331"><![CDATA[　　　　1.持有被投資公司表決權比例達20％以上或具有重大影響力者，採權益法評價。民國9
+　　　　　5年度(含)起，投資成本與股權淨值之差額，如屬投資成本超過所取得可辨認淨資產公
+　　　　　平價值，將超過部分列為商譽，並於每年定期執行減損測試，以前年度攤銷者，不再
+　　　　　追溯調整；若所取得可辨認淨資產公平價值超過投資成本者，則差額就非流動資產分
+　　　　　別將其公平價值等比例減少之，若減少至零仍有差額時，則為負商譽，將該差額列為
+　　　　　非常利益。
+　　　　2.自民國94年1月1日起對於採權益法評價之被投資公司，若對投資公司已具控制能力者
+　　　　　，除被投資公司之其他股東有義務並能夠提出額外資金承擔其損失者外，以全額吸收
+　　　　　超過被投資公司股東原有權益之損失金額，若該被投資公司日後獲利，則該利益宜先
+　　　　　歸屬本公司，直至原多承擔之損失完全回復為止。
+　　　　3.持有被投資公司表決權比例達20%以上至50%或具有重大影響力者，依中華民國財務會
+　　　　　計準則公報第二十三號「期中財務報表之表達與揭露」規定，財務季報表免依權益法
+　　　　　認列投資損益。
+　　　　4.海外投資按權益法評價時，被投資公司財務報表轉換所產生之「累積換算調整數」，
+　　　　　本公司依持股比例認列之，並作為本公司股東權益之調整項目。
+　　　　5.本公司與被投資公司間交易所產生之損益，於本年度尚未實現者，予以銷除；交易損
+　　　　　益如屬折舊或攤銷性之資產所產生者，依其效益年限分年承認；其餘之資產所產生者
+　　　　　，俟實現年度始行認列。
+
+]]></tw-gaap-notes:LongTermInvestmentsUnderEquityMethod>
+  <tw-gaap-notes:PropertyPlantAndEquipmentAssetsLeasedToOthersAndIdleAssets contextRef="From20120101To20120331"><![CDATA[　　　　1.除已依法辦理資產重估之項目外，固定資產以取得成本為入帳基礎，並將購建期間之
+　　　　　有關利息資本化。
+　　　　2.固定資產按估計經濟耐用年限，採平均法提列。各項資產之耐用年限，除房屋及建築
+　　　　　為10年～50年外，餘為2年～10年。
+　　　　3.凡支出效益及於以後各期之重大改良或大修支出列為資本支出，經常性維護或修理支
+　　　　　出則列為當期費用。報廢或出售時，所產生之處分損益列為當期營業外收支項下。
+　　　　4.凡租約屬資本租賃者，各期租金資本化為租賃資產並認列租賃負債。租賃資產計提折
+　　　　　舊時，凡租期屆滿無條件移轉所有權或有優惠承購權者，按資產估計使用年數提列，
+　　　　　其他資本租賃則按租賃期間提列。
+　　　　　凡租約屬營業租賃者，每期支付租金時作為租金費用。
+　　　　5.固定資產發生閒置或已無使用價值時，按其淨變現價值或帳面價值較低者，轉列其他
+　　　　　資產，差額列為當期損失，當期提列之折舊費用列為營業外支出。
+
+　　　　以營業租賃方式出租予他人之固定資產列為出租資產，係以成本計價，於估計使用年限
+　　　　內按平均法提列折舊，列為營業外支出。
+
+]]></tw-gaap-notes:PropertyPlantAndEquipmentAssetsLeasedToOthersAndIdleAssets>
+  <tw-gaap-notes:PensionPlan contextRef="From20120101To20120331"><![CDATA[　　　　　1.退休金辦法屬確定給付退休辦法者，係依據精算結果認列淨退休金成本，淨退休金
+　　　　　　成本包括當期服務成本、利息成本、基金資產之預期報酬及未認列過渡性淨給付義務
+　　　　　　與退休金損益之攤銷數。未認列過渡性淨給付義務按15年攤提。
+　　　　　2.退休金辦法屬確定提撥退休辦法者，則依權責發生基礎將應提撥之退休基金數額認
+　　　　　　列為當期之退休金成本。
+　　　　　3.編製期中財務報告時，應計退休金負債按續後淨退休金成本及基金提撥金額調整之
+　　　　　　。
+
+]]></tw-gaap-notes:PensionPlan>
+  <tw-gaap-notes:IncomeTax contextRef="From20120101To20120331"><![CDATA[　　　　　1.所得稅之會計採跨期間與同期間之所得稅分攤，以前年度溢低估之所得稅，列為當
+　　　　　　期所得稅費用之調整項目。當稅法修正時，於公佈日之年度按新規定將遞延所得稅負
+　　　　　　債或資產重新計算，因而產生之遞延所得稅負債或資產之變動影響數，列入當期繼續
+　　　　　　營業部門之所得稅費用(利益)。
+　　　　　2.因研究發展支出所產生之所得稅抵減採當期認列法處理。
+　　　　　3.未分配盈餘依所得稅法加徵10％之營利事業所得稅，於股東會決議分配盈餘後列為
+　　　　　　當期費用。
+
+]]></tw-gaap-notes:IncomeTax>
+  <tw-gaap-notes:ShareBasedPayment contextRef="From20120101To20120331"><![CDATA[　　　　　股份基礎給付協議之給與日於民國97年1月1日(含)以後者，以所給與權益商品之公平
+　　　　　價值衡量所取得之員工勞務，並於既得期間認列為薪資費用。所給與權益商品之公平
+　　　　　價值無法可靠估計時，則應於取得員工勞務時衡量權益商品之內含價值，並於後續之
+　　　　　資產負債表日及最終確定日將內含價值之變動認列損益入帳。
+
+]]></tw-gaap-notes:ShareBasedPayment>
+  <tw-gaap-notes:EmployeeBonusAndRemunerationsPaidToDirectorsAndSupervisors contextRef="From20120101To20120331"><![CDATA[　　　　　自民國97年1月1日起，本公司員工分紅及董監酬勞成本，依民國96年3月16日財團法人
+　　　　　中華民國會計研究發展基金會(96)基秘字第052號函「員工分紅及董監酬勞會計處理」
+　　　　　之規定，於具法律義務或推定義務且金額可合理估計時，認列為費用及負債。嗣後股
+　　　　　東會決議實際配發金額與估列金額有差異時，則列為次年度之損益。另依民國97年3月
+　　　　　31日財團法人中華民國會計研究發展基金會(97)基秘字第127號函「上市上櫃公司員工
+　　　　　分紅股數計算基準」，本公司以財務報告年度之次年度股東會決議日前一日之每股公
+　　　　　平價值(收盤價)，並考慮除權除息影響後之金額，計算員工股票紅利之股數。
+
+]]></tw-gaap-notes:EmployeeBonusAndRemunerationsPaidToDirectorsAndSupervisors>
+  <tw-gaap-notes:RevenueRecognition contextRef="From20120101To20120331"><![CDATA[　　　　　收入於獲利過程大部分已完成，且已實現或可實現時認列。相關成本配合收入於發生
+　　　　　時承認，費用則依權責發生制於發生時認列為當期費用。
+
+]]></tw-gaap-notes:RevenueRecognition>
+  <tw-gaap-notes:LeasingContract contextRef="From20120101To20120331"><![CDATA[　　　　　本公司與他公司簽訂之租賃合約符合資本租賃條件者，以租約期限內各期租金總額加
+　　　　　上優惠承購價格或估計殘值，列為應收租賃款；另以隱含利率折算每期收取之租賃款
+　　　　　總額之現值。應收租賃款總額高於現值之部分列為未實現利息收入，按利息法逐期認
+　　　　　列利息收入。
+
+]]></tw-gaap-notes:LeasingContract>
+  <tw-gaap-notes:OperatingSegment contextRef="From20120101To20120331"><![CDATA[　　　　　本公司營運部門資訊與提供給營運決策者之內部管理報告採一致之方式報導。營運決
+　　　　　策者係負責分配資源予營運部門並評估其績效者。本公司依財務會計準則公報第四十
+　　　　　一號「營運部門資訊之揭露」規定於合併財務報表揭露部門資訊，而不於個別財務報
+　　　　　表揭露部門資訊。
+
+]]></tw-gaap-notes:OperatingSegment>
+  <tw-gaap-notes:Others>
+    <tw-gaap-notes:Item contextRef="From20120101To20120331"><![CDATA[交割日會計]]></tw-gaap-notes:Item>
+    <tw-gaap-notes:Description contextRef="From20120101To20120331"><![CDATA[　　　　　採用交割日會計時，對於交易日及交割日間公平價值之變動，屬以成本或攤銷後成本
+　　　　　衡量者不予認列，屬以公平價值衡量且公平價值變動認列為損益者認列為當期損益，
+　　　　　屬備供出售者則認列為業主權益調整項目。
+]]></tw-gaap-notes:Description>
+  </tw-gaap-notes:Others>
+  <tw-gaap-notes:ChangesInAccountingPrinciples contextRef="From20120101To20120331"><![CDATA[　　(一)應收票據及帳款、其他應收款
+　　　　本公司自民國100年1月1日起，採用新修訂之財務會計準則公報第三十四號「金融商品
+　　　　之會計處理準則」，就應收票據及帳款、其他應收款等各項債權，於有減損之客觀證據
+　　　　時認列減損(呆帳)損失，此項會計原則變動對本公司民國100年度第一季之損益及每股
+　　　　盈餘並無重大影響。
+　　(二)營運部門
+　　　　本公司自民國100年1月1日起，採用新發布之財務會計準則公報第四十一號「營運部門
+　　　　資訊之揭露」，以取代原財務會計準則公報第二十號「部門別財務資訊之揭露」。此項
+　　　　會計原則變動並不影響民國100年度第一季之淨利及每股盈餘。
+]]></tw-gaap-notes:ChangesInAccountingPrinciples>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[松青商業]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[直接持有普通股股權超過50%之子公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">2582100000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">1120000000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">1120000000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.1414</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">7918501000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[杭州順全]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[母公司與子公司持有普通股股權合併計算超過50%之被投資公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">2582100000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">575225000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">472160000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.0596</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">7918501000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[上海頂盛]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[因共同投資關係由各出資股東依其持股比例對其背書保證之公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">2582100000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">454125000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">442650000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.0559</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">7918501000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[杭州生技]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[母公司與子公司持有普通股股權合併計算超過50%之被投資公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">2582100000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">442650000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">442650000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.0559</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">7918501000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[康全工程]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[直接持有普通股股權超過50%之子公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">2582100000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">571687000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">437273000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.0552</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">7918501000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[康合貿易]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[直接持有普通股股權超過50%之子公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">2582100000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">395380000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">394610000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.0498</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">7918501000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[杭州頂可]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[因共同投資關係由各出資股東依其持股比例對其背書保證之公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">2582100000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">242200000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">236080000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.0298</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">7918501000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[王德興茶業]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[直接持有普通股股權超過50%之子公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">2582100000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">140000000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">140000000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.0177</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">7918501000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[昆山裕全]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[母公司與子公司持有普通股股權合併計算超過50%之被投資公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">2582100000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">242200000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">88530000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.0112</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">7918501000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[中國青年]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[直接持有普通股股權超過50%之子公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">2582100000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">50000000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">50000000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.0063</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">7918501000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[優味企業]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[因共同投資關係由各出資股東依其持股比例對其背書保證之公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">2582100000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">20400000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">20400000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.0026</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">7918501000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:TotalEndingBalance2-Parent contextRef="AsOf20120331" unitRef="TWD" decimals="-3">3864353000</tw-gaap-notes:TotalEndingBalance2-Parent>
+  <tw-gaap-notes:TotalEndingBalance2-Subsidiaries contextRef="AsOf20120331" unitRef="TWD" decimals="-3">532632000</tw-gaap-notes:TotalEndingBalance2-Subsidiaries>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[康國行銷]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[直接持有普通股股權超過50%之子公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">2582100000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">20000000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">20000000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.0025</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">7918501000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[1]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[欣全實業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[昆山裕全]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[母公司與子公司持有普通股股權合併計算超過50%之被投資公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">412630000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">171054000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">166732000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.1347</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">1237891000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[2]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[昆山裕全模具工業有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[杭州順全]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[母公司與子公司持有普通股股權合併計算超過50%之被投資公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">207277000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">147270000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">143490000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.3542</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">405092000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+    <tw-gaap-notes:No. contextRef="From20120101To20120331"><![CDATA[3]]></tw-gaap-notes:No.>
+    <tw-gaap-notes:CompanyNameOfTheEndorserGuarantor contextRef="From20120101To20120331"><![CDATA[杭州順全塑料科技有限公司]]></tw-gaap-notes:CompanyNameOfTheEndorserGuarantor>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[昆山裕全]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:Relationship1 contextRef="From20120101To20120331"><![CDATA[母公司與子公司持有普通股股權合併計算超過50%之被投資公司]]></tw-gaap-notes:Relationship1>
+    <tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">365192000</tw-gaap-notes:LimitOnEndorsementGuaranteeAmountProvidedToIndividualCounterparty>
+    <tw-gaap-notes:MaximumBalanceForThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">228269000</tw-gaap-notes:MaximumBalanceForThePeriod>
+    <tw-gaap-notes:EndingBalance2 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">222410000</tw-gaap-notes:EndingBalance2>
+    <tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AmountOfEndorsementsGuaranteesSecuredWithCollateral>
+    <tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements contextRef="From20120101To20120331" decimals="4">0.4035</tw-gaap-notes:RatioOfAccumulatedEndorsementGuaranteeAmountToNetAssetOfTheCompanyPerLatestFinancialStatements>
+    <tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">551259000</tw-gaap-notes:LimitOfTotalGuaranteeEndorsementAmount>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:Note-EndorsementGuaranteeProvidedToOthers contextRef="From20120101To20120331"><![CDATA[            /
+註一：1.味全食品工業股份有限公司對單一企業背書保證之金額不得超過背書保證者公司淨值之三分之一。
+      2.味全食品工業股份有限公司因業務往來關係從事背書保證，個別保證金額以不超過最近一年度與當年度截至提供保證時止背書保證者公司與其進貨或銷貨金額之最高者。
+註二：除味全食品工業股份有限公司外其餘公司對單一企業背書保證之金額不得超過背書保證者公司淨值之三分之二。
+註三：截至民國101年3月31日止，本公司及被投資公司提供關係人融資保證額度而實際動用金額計$2,553,436。
+註四：由本公司背書保證者，以本公司最近期財務報表淨值計算。
+      背書保證者公司為欣全實業股份有限公司、昆山裕全模具工業有限公司及杭州順全塑料科技有限公司，以該公司最近期財務報表(民國100年度財務報表)淨值計算。
+註五：背書保證總金額不得超過背書保證者公司之淨值。]]></tw-gaap-notes:Note-EndorsementGuaranteeProvidedToOthers>
+  <tw-gaap-notes:LimitOnInvestmentInMainlandChina>
+    <tw-gaap-notes:NameOfTheCompany contextRef="From20120101To20120331"><![CDATA[味全食品工業股份有限公司]]></tw-gaap-notes:NameOfTheCompany>
+    <tw-gaap-notes:AccumulatedInvestmentInMainlandChinaAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">3098119000</tw-gaap-notes:AccumulatedInvestmentInMainlandChinaAtTheEndOfThePeriod>
+    <tw-gaap-notes:InvestmentAmountAuthorizedByTheInvestmentCommissionOfMOEA contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">3224569000</tw-gaap-notes:InvestmentAmountAuthorizedByTheInvestmentCommissionOfMOEA>
+    <tw-gaap-notes:UpperLimitOnInvestmentInMainlandChinaImposedByTheInvestmentCommissionOfMOEA contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">4751101000</tw-gaap-notes:UpperLimitOnInvestmentInMainlandChinaImposedByTheInvestmentCommissionOfMOEA>
+  </tw-gaap-notes:LimitOnInvestmentInMainlandChina>
+  <tw-gaap-notes:Note-LimitOnInvestmentInMainlandChina contextRef="From20120101To20120331"><![CDATA[註一、投資方式區分為下列四種，標示種類別即可：
+      (一)經由第三地區匯款投資大陸公司
+      (二)透過第三地區投資設立公司再投資大陸公司
+      (三)透過轉投資第三地區現有公司再投資大陸公司
+      (四)直接投資大陸公司
+      (五)其他方式  EX 委託投資
+註二、本期認列投資損益係依各該公司同期間自編未經會計師查核或核閱之財務報表認列。
+註三、本表相關數字應以新台幣列示，另實收資本額係按原始投入之匯率換算。
+註四、包含國內子公司本期期末累計自台灣匯出赴大陸地區投資金額計$486,656及經經濟部投審會核准投資金額計$578,502。
+註五、係以本公司股權淨值之60%為限額。]]></tw-gaap-notes:Note-LimitOnInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[福州可福公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[方便麵]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">48440000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[五]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">15602000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">15602000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">0.375</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[北京味全公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[奶粉]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">97845000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[五]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">97845000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">97845000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-24000</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">-1529000</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">31671000</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[桂林味全公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[味精]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">284325000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[五]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">44349000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">44349000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">0.1587</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[黑龍江味全食品公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[調味品等產品]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">72633000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[二]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">19896000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">19896000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">0.67</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[黑龍江味全乳品公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[乳製品等產品]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">249163000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[二]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">121501000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">121501000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">0.70</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[上海味全公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[方便麵等食品]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">136238000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[二]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">22278000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">22278000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">0.19</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[杭州味全生技食品有限公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[奶粉、米麥粉及固體飲料等食品]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">326435000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[二]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">326435000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">326435000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">10570000</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">-25785000</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[杭州味全食品有限公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[液體飲料等食品]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">1268366000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[二]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">1268366000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">1268366000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-3675000</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">1463106000</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[昆山裕全模具工業有限公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[食品模具、注射模具等製造]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">224813000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[二]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">97413000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">97413000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">0.9868</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">24293000</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">419164000</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[杭州順全塑料科技有限公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[塑料瓶蓋等製品]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">322025000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[二]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">317774000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">317774000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">0.9868</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">32042000</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">569189000</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[上海頂盛食品工業有限公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[麵包生產]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">485972000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[二]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">291583000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">291583000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">0.60</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-25237000</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">282304000</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[杭州頂可食品有限公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[沙拉、沙拉醬調味等生產]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">302229000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[三]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">151114000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">151114000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">0.50</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-4213000</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">276357000</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[東莞頂可食品有限公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[沙拉、沙拉醬調味等生產]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">39983000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[三]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">19991000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">19991000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">0.50</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-789000</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">15810000</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+    <tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina contextRef="From20120101To20120331"><![CDATA[王德傳茶業商貿(上海)有限公司]]></tw-gaap-notes:CompanyNameOfTheInvesteeInMainlandChina>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[茶業、茶具零售業]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:TotalAmountOfPaid-inCapital contextRef="AsOf20120331" unitRef="TWD" decimals="-3">53840000</tw-gaap-notes:TotalAmountOfPaid-inCapital>
+    <tw-gaap-notes:MethodOfInvestment contextRef="From20120101To20120331"><![CDATA[四]]></tw-gaap-notes:MethodOfInvestment>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">27458000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheBeginningOfThePeriod>
+    <tw-gaap-notes:Outflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Outflow>
+    <tw-gaap-notes:Inflow contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:Inflow>
+    <tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">27458000</tw-gaap-notes:AccumulatedOutflowOfInvestmentFromTaiwanAtTheEndOfThePeriod>
+    <tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany contextRef="AsOf20120331" decimals="4">0.51</tw-gaap-notes:PercentageOfOwnershipThroughDirectAndIndirectInvestmentByTheCompany>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized2 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-2701000</tw-gaap-notes:InvestmentIncomeLossesRecognized2>
+    <tw-gaap-notes:BookValueAtTheEndOfThePeriod contextRef="AsOf20120331" unitRef="TWD" decimals="-3">25329000</tw-gaap-notes:BookValueAtTheEndOfThePeriod>
+    <tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:AccumulatedInwardRemittanceOfEarningsAsOfTheEndOfThePeriod>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:InformationOfInvestmentInMainlandChina>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[欣全實業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[台灣]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[鐵罐、鐵盒、鐵桶、瓶蓋等馬口鐵製品之加工製造及買賣]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">358691000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">358691000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">69542736</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.9868</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">1256139000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">62381000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">62460000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[康全工程(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[台灣]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[石化設計建造等業務]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">94551000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">94551000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">6409919</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.9913</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">44751000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-2061000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-6531000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[康合國際貿易(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[台灣]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[一般進出口貿易業務]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">43281000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">43281000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">6439435</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">73232000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">1387000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">1232000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[中國青年商店(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[台灣]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[經營蔬果超級市場及便利商店等業務]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">157041000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">157041000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">9939682</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.994</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">30314000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-2913000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-1797000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[康國行銷(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[台灣]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[經營業務為各種食品、罐頭、百貨等之批發零售]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">34902000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">34902000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">3490189</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.9972</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">20479000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">497000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">496000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[松青商業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[台灣]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[經營超級商店及超級市場等業務]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">565831000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">565831000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">11332854</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.9778</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">-288126000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-16854000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-17904000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[泰味全(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[199]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[泰國]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[食品機械進口、食品罐頭出口等業務]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">37919000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">37919000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">390000</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.60</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">-7891000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[維京群島味全國際有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[226]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[英屬維京群島]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[一般投資業]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">378274000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">378274000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">84787000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-1337000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-1337000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[維京群島味全有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[226]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[英屬維京群島]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[一般投資業]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">2055461000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">2055461000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">1792316000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-23629000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-23629000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[TECHNAGE (BVI) LTD.]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[226]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[英屬維京群島]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[一般投資業]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">255067000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">255067000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">-53000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-24000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-24000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[頂率開發股份有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[台灣]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[不動產買賣、租賃業]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">2040000000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">2040000000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">204000000</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.51</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">1972955000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-2872000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-1465000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[王德興茶業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[台灣]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[茶葉批發業等]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">100000000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">100000000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">2290000</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.51</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">82477000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-8228000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-4196000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[味全食品工業(股)公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[優仕咖啡(股)公司等5家被投資公司
+
+　]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[0]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[台灣]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[經營咖啡豆、粉之生產與買賣業務、各種調理食品、一般貿易及投資事業等]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">7563000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-8034000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[-]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[欣全實業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[KING CAN (BVI) Corporation]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[226]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[英屬維京群島]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[一般投資業]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">432330000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">432330000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">973210000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">58301000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">58301000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註  一]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[KING CAN (BVI) Corporation]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[昆山裕全模具工業有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[230]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[中國大陸]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[食品模具、注射模具等製造]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">98716000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">98716000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">419164000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">24618000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">24618000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[KING CAN (BVI) Corporation]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[杭州順全塑料科技有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[230]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[中國大陸]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[塑料瓶蓋等製造]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">322025000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">322025000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">569189000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">32471000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">32471000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[王德興茶業股份有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[王德傳茶業商貿(上海)有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[230]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[中國大陸]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[茶業、茶具零售業]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">53840000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">53840000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">25329000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-5297000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-5297000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[維京群島味全國際有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[味全亞洲投資有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[92]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[香港]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[一般投資業]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">255000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">255000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.99</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">8080000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[維京群島味全國際有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[黑龍江味全乳品有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[230]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[中國大陸]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[乳製品等產品]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">121501000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">121501000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.70</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[維京群島味全國際有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[黑龍江味全食品有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[230]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[中國大陸]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[調味品等產品]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">19896000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">19896000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.67</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[維京群島味全有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[杭州味全生技食品有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[230]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[中國大陸]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[生產銷售嬰幼兒奶粉等]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">326435000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">326435000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">-25785000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">10570000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">10570000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[維京群島味全有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[維京群島頂盛控股有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[226]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[英屬維京群島]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[一般投資業]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">291583000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">291583000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">9060000</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.60</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">170723000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-42062000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-25237000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[維京群島味全有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[杭州味全食品有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[230]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[中國大陸]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[液體飲料等食品]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">1268366000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">1268366000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">1463106000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-3675000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-3675000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[維京群島味全有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[頂可(香港)控股股份有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[92]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[香港]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[一般投資業]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">198152000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">198152000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">43500000</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.50</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">172141000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-10573000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-5287000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[維京群島頂盛控股有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[上海頂盛食品工業有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[230]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[中國大陸]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[麵包生產及批發]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">485972000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">485972000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">282304000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-42062000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-42062000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[TECHANGE (BVI) LTD.]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[北京味全食品有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[230]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[中國大陸]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[生產銷售營養食品及嬰幼兒奶粉等]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">63422000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">63422000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.70</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">-1529000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-24000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-24000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[頂可(香港)控股股份有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[杭州頂可食品有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[230]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[中國大陸]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[沙拉、沙拉醬調味品等生產]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">302229000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">302229000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">276357000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-8426000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-8426000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[頂可(香港)控股股份有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[東莞頂可食品有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[230]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[中國大陸]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[沙拉、沙拉醬調味品等生產]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">39983000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">39983000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">1.00</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">15810000</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-1578000</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">-1578000</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+    <tw-gaap-notes:CompanyNameOfTheInvestor contextRef="From20120101To20120331"><![CDATA[香港冠華發展有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestor>
+    <tw-gaap-notes:CompanyNameOfTheInvestee contextRef="From20120101To20120331"><![CDATA[北京味全食品有限公司]]></tw-gaap-notes:CompanyNameOfTheInvestee>
+    <tw-gaap-notes:LocationCode contextRef="From20120101To20120331"><![CDATA[230]]></tw-gaap-notes:LocationCode>
+    <tw-gaap-notes:Location contextRef="From20120101To20120331"><![CDATA[中國大陸]]></tw-gaap-notes:Location>
+    <tw-gaap-notes:MainBusinessesAndProducts contextRef="From20120101To20120331"><![CDATA[生產銷售營養食品及嬰幼兒奶粉等]]></tw-gaap-notes:MainBusinessesAndProducts>
+    <tw-gaap-notes:EndingBalance3 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">34423000</tw-gaap-notes:EndingBalance3>
+    <tw-gaap-notes:BeginningBalance contextRef="AsOf20120331" unitRef="TWD" decimals="-3">34423000</tw-gaap-notes:BeginningBalance>
+    <tw-gaap-notes:NumberOfShares1 contextRef="AsOf20120331" decimals="0">0</tw-gaap-notes:NumberOfShares1>
+    <tw-gaap-notes:PercentageOfOwnership1 contextRef="AsOf20120331" decimals="4">0.30</tw-gaap-notes:PercentageOfOwnership1>
+    <tw-gaap-notes:BookValue1 contextRef="AsOf20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:BookValue1>
+    <tw-gaap-notes:NetIncomeLossesOfTheInvestee contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:NetIncomeLossesOfTheInvestee>
+    <tw-gaap-notes:InvestmentIncomeLossesRecognized1 contextRef="From20120101To20120331" unitRef="TWD" decimals="-3">0</tw-gaap-notes:InvestmentIncomeLossesRecognized1>
+    <tw-gaap-notes:Note contextRef="From20120101To20120331"><![CDATA[註一、二]]></tw-gaap-notes:Note>
+  </tw-gaap-notes:NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+  <tw-gaap-notes:Note-NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence contextRef="From20120101To20120331"><![CDATA[註一：係有限公司，故無股數。
+註二：本公司透過維京群島味全國際有限公司、維京群島味全有限公司、TECHANGE (BVI) LTD.、KING CAN (BVI) Corporation、頂可(香港)控股股份有限公司、
+王德興茶業股份有限公司及維京群島頂盛控股有限公司轉投資之大陸被投資公司相關資訊請詳附註十一(三)。]]></tw-gaap-notes:Note-NamesLocationsAndRelatedInformationOfInvesteesOverWhichTheCompanyExercisesSignificantInfluence>
+</xbrli:xbrl>

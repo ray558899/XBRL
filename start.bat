@@ -1,0 +1,1 @@
+start TWAMPd\apmxe_zh-TW.exe | java -jar XBRL.jar >log.txt
